@@ -303,7 +303,7 @@
     <!-- Custom Search End -->
 
     <!-- Main start -->
-    <main class="main">
+    <main class="main" style="background-color: white;">
       <!-- Breadcrumb Section Start -->
       <!-- <div
         class="breadcrumb-wrapper bg-cover"
@@ -338,6 +338,7 @@
       <!-- Hero Section Version0 -->
       <section
         class="hero-section-version2 d-flex align-items-center justify-content-center"
+        style="min-height: 70vh"
       >
         <div class="container">
           <div class="hero-v2-content-contactUs">
@@ -351,10 +352,7 @@
               <span
                 class="text-adjust position-relative d-inline-flex align-items-center"
               >
-                <span
-                  class="black-clr imageMask"
-                  style="font-size: 65px"
-                >
+                <span class="black-clr imageMask" style="font-size: 65px">
                   Contact Us
                 </span>
                 <img
@@ -366,7 +364,7 @@
             </h1>
 
             <!-- Social Media Links Start -->
-            <div class="menuu">
+            <!-- <div class="menuu">
               <div class="togglee">
                 <ion-icon name="share-social" class="text-center"></ion-icon>
               </div>
@@ -380,9 +378,9 @@
               <li style="--i: 2; --clr: #1da1f2">
                 <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
               </li>
-              <!-- <li style="--i: 3; --clr: #ff5733">
+               <li style="--i: 3; --clr: #ff5733">
         <a href="#"><ion-icon name="logo-reddit"></ion-icon></a>
-      </li> -->
+      </li> 
               <li style="--i: 3; --clr: #0a66c2">
                 <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
               </li>
@@ -395,7 +393,7 @@
               <li style="--i: 6; --clr: #ff0000">
                 <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
               </li>
-            </div>
+            </div> -->
             <!-- Social Media Links End -->
           </div>
         </div>
@@ -409,7 +407,10 @@
       <!-- Hero Section Version0 -->
 
       <!-- Contact Info Section Start -->
-      <section class="contact-info-areas fix section-padding">
+      <section
+        class="contact-info-areas fix section-padding"
+        style="background-color: white"
+      >
         <div class="container">
           <div class="contact-info-wrapper-22">
             <div class="row g-4">
@@ -481,12 +482,12 @@
       <!-- Contact Section Start -->
       <section
         class="contact-section fix section-padding pt-0 text-center"
-        style="margin-left: 400px; color: #166fd3 !important"
+        style="margin-left: 400px"
       >
         <div class="container">
           <div class="row">
             <div class="col-xl-8 col-lg-8 wow fadeInUp" data-wow-delay=".5s">
-              <div class="contact-form-items style-2 style-3">
+              <div class="contact-form-items style-2 style-3" style="color: #062640 !important;">
                 <div class="section-title text-center">
                   <span class="wow fadeInUp contact"
                     >contact us<i class="fa-solid fa-arrow-right"></i
@@ -571,7 +572,7 @@
       </section>
 
       <!-- Marquee Section Start -->
-      <div class="marquee-sections fix section-padding pt-0">
+      <!-- <div class="marquee-sections fix section-padding pt-0">
         <div class="mycustom-marque">
           <div class="scrolling-wrap gap-100">
             <div class="comm">
@@ -603,12 +604,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </main>
     <!-- Main End -->
 
     <!-- Footer Section Start -->
-    <footer class="footer-section section-bg">
+    <footer class="footer-section section-bg" style="background-color: #062640 ;">
       <div class="container">
         <div class="footer-widgets-wrapper">
           <div class="row">
@@ -884,29 +885,29 @@
     <script src="assets/js/main.js"></script>
     <script>
       document.querySelectorAll(".nav-link").forEach((item) => {
-  item.addEventListener("mouseover", function () {
-    const targetPaneId = this.getAttribute("data-bs-target");
-    const targetPane = document.querySelector(targetPaneId);
+        item.addEventListener("mouseover", function () {
+          const targetPaneId = this.getAttribute("data-bs-target");
+          const targetPane = document.querySelector(targetPaneId);
 
-    // Remove 'active' class from all nav links
-    document.querySelectorAll(".nav-link").forEach((link) => {
-      link.classList.remove("active");
-    });
+          // Remove 'active' class from all nav links
+          document.querySelectorAll(".nav-link").forEach((link) => {
+            link.classList.remove("active");
+          });
 
-    // Remove 'show' class from all tab panes
-    document.querySelectorAll(".tab-pane").forEach((pane) => {
-      pane.classList.remove("show", "active");
-    });
+          // Remove 'show' class from all tab panes
+          document.querySelectorAll(".tab-pane").forEach((pane) => {
+            pane.classList.remove("show", "active");
+          });
 
-    // Add 'active' class to the hovered nav link
-    this.classList.add("active");
+          // Add 'active' class to the hovered nav link
+          this.classList.add("active");
 
-    // Add 'show' and 'active' classes to the corresponding tab pane
-    if (targetPane) {
-      targetPane.classList.add("show", "active");
-    }
-  });
-});
+          // Add 'show' and 'active' classes to the corresponding tab pane
+          if (targetPane) {
+            targetPane.classList.add("show", "active");
+          }
+        });
+      });
     </script>
   </body>
 </html>
