@@ -206,28 +206,24 @@ $(".owl-carousel").owlCarousel({
 
 var swiper = new Swiper(".swiper-container", {
   effect: "coverflow",
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-    allowTouchMove: true,
-    scale: 2,
-    loop: true,
-  },
-  followFinger: false,
   centeredSlides: true,
-
-  // spaceBetween: 40,
-
-  // other options...
+  initialSlide: 2,
+  slidesPerView: "auto",
+  allowTouchMove: false,
+  spaceBetween: 40,
+  coverflowEffect: {
+    rotate: 25,
+    stretch: 0,
+    depth: 50,
+    modifier: 1,
+    slideShadows: false,
+  },
+  navigation: {
+    nextEl: ".forward",
+    prevEl: ".backward",
+  },
 });
 
-swiper.on("slideChange", function () {
-  var activeSlide = swiper.slides[swiper.activeIndex];
-  activeSlide.style.transform = "scale(2)";
-});
 
 
 
