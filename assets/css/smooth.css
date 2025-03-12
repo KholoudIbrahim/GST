@@ -169,3 +169,98 @@
   background: #ababab;
   color: #fff;
 }
+
+
+
+@media (max-width: 991px) 
+{
+  #slider-wrapper-homepage .slide .item:nth-child(2),
+  #slider-wrapper-homepage .slide .item:nth-child(3), 
+  #slider-wrapper-homepage .slide .item:nth-child(4), 
+  #slider-wrapper-homepage .slide .item:nth-child(5), 
+  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+  {
+    display: none;
+  }
+
+  #main #slider-wrapper-homepage .slide .item .content .name,
+  #main #slider-wrapper-homepage .slide .item .content .description,
+  #main #slider-wrapper-homepage .slide .item .content button 
+  {
+    display: block; /* Ensure they stack vertically */
+    font-size: 16px; /* Adjust font size for readability */
+    padding: 10px; /* Add padding for better touch interaction */
+    margin: 5px 0; /* Add margin for spacing */
+  }
+  
+
+#about-product .about-product-thumb img {
+  height: 300px;
+  width: 400px;
+  margin-left: -62px !important;
+}
+.pricing-title p {
+  font-size: 16px !important;
+}
+}
+
+
+@media (max-width: 767px) {
+  #slider-wrapper-homepage .slide .item:nth-child(2),
+  #slider-wrapper-homepage .slide .item:nth-child(3), 
+  #slider-wrapper-homepage .slide .item:nth-child(4), 
+  #slider-wrapper-homepage .slide .item:nth-child(5), 
+  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+  {
+    display: none;
+  }
+  #main #slider-wrapper-homepage .slide .item .content .name,
+  #main #slider-wrapper-homepage .slide .item .content .description,
+  #main #slider-wrapper-homepage .slide .item .content button 
+  {
+    display: block; /* Ensure they stack vertically */
+    font-size: 16px; /* Adjust font size for readability */
+    padding: 10px; /* Add padding for better touch interaction */
+    margin: 5px 0; /* Add margin for spacing */
+  }
+  
+  #about-product .about-product-thumb img {
+    height: 300px;
+    width: 400px;
+    margin-left: -62px !important;
+}
+.pricing-title p {
+  font-size: 16px !important;
+}
+}
+
+
+@media (max-width: 575px) 
+{ 
+  #slider-wrapper-homepage .slide .item:nth-child(2),
+  #slider-wrapper-homepage .slide .item:nth-child(3), 
+  #slider-wrapper-homepage .slide .item:nth-child(4), 
+  #slider-wrapper-homepage .slide .item:nth-child(5), 
+  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+  {
+    display: none;
+  }
+  #main #slider-wrapper-homepage .slide .item .content .name,
+  #main #slider-wrapper-homepage .slide .item .content .description,
+  #main #slider-wrapper-homepage .slide .item .content button 
+  {
+    display: block; /* Ensure they stack vertically */
+    font-size: 16px; /* Adjust font size for readability */
+    padding: 10px; /* Add padding for better touch interaction */
+    margin: 5px 0; /* Add margin for spacing */
+  }
+  
+#about-product .about-product-thumb img {
+  height: 300px;
+  width: 400px;
+  margin-left: -62px !important;
+}
+.pricing-title p {
+  font-size: 16px !important;
+}
+}
