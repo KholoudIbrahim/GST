@@ -10622,37 +10622,7 @@ p {
 /* Contact Us Media Query Start */
 @media (max-width: 991px) 
 {
-
-  .hero-section-version2 {
-    min-height: 0vh;
-  }
-
-  .contact-info-wrapper-22 .contact-info-items-2 
-  {
-    padding: 20px !important;
-  }
-
-  .contact-info-wrapper-22 .contact-info-items-2 .icon 
-  {
-    font-size: 28px !important;
-    margin-top: 2px  !important;
-  }
-
-   h3 {
-    font-size: 22px !important;
-    font-weight: 500 !important;
-}
-  .contact-section 
-  { 
-    margin-left: -400px !important;
-  }
-
-}
-
-
-@media (max-width: 767px) 
-{
-  .hero-section-version2 
+ .hero-section-version2 
   {
     min-height: 0vh;
   }
@@ -10668,7 +10638,7 @@ p {
     margin-top: 2px !important;
   }
 
-   h3  
+   h3
   {
     font-size: 22px !important;
     font-weight: 500 !important;
@@ -10678,6 +10648,60 @@ p {
   { 
     margin-left: -400px !important;
   }
+  
+    .contact-form-items.style-3 .form-clt input, .contact-form-items.style-3 .form-clt textarea, .contact-form-items.style-3 .form-clt .nice-select {
+    width: 47%;
+    margin-inline: 53%;
+  }
+   .section-title {
+margin-inline:51%;
+width:50%; }
+   .section-title h2 {
+    font-size: 32px !important;
+   }
+
+}
+
+
+@media (max-width: 767px) 
+{
+   .hero-section-version2 
+  {
+    min-height: 0vh;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 
+  {
+    padding: 20px !important;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 .icon 
+  {
+    font-size: 28px !important;
+    margin-top: 2px !important;
+  }
+
+   h3
+  {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+  }
+
+  .contact-section 
+  { 
+    margin-left: -400px !important;
+  }
+  
+    .contact-form-items.style-3 .form-clt input, .contact-form-items.style-3 .form-clt textarea, .contact-form-items.style-3 .form-clt .nice-select {
+    width: 47%;
+    margin-inline: 53%;
+  }
+   .section-title {
+margin-inline:51%;
+width:50%; }
+   .section-title h2 {
+    font-size: 32px !important;
+   }
 }
 
 
@@ -10710,6 +10734,16 @@ p {
     margin-left: -400px !important;
   }
   
+    .contact-form-items.style-3 .form-clt input, .contact-form-items.style-3 .form-clt textarea, .contact-form-items.style-3 .form-clt .nice-select {
+    width: 47%;
+    margin-inline: 53%;
+  }
+   .section-title {
+margin-inline:51%;
+width:50%; }
+   .section-title h2 {
+    font-size: 32px !important;
+   }
 }
 
 /* Contact Us Media Query End */
