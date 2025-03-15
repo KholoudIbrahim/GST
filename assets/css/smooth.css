@@ -251,3 +251,99 @@
   font-size: 16px !important;
 }
 }
+
+
+/* Contact Us Media Query Start */
+@media (max-width: 991px) 
+{
+
+  .hero-section-version2 {
+    min-height: 0vh;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 
+  {
+    padding: 20px !important;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 .icon 
+  {
+    font-size: 28px !important;
+    margin-top: 2px  !important;
+  }
+
+   h3 {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+  .contact-section 
+  { 
+    margin-left: -400px !important;
+  }
+
+}
+
+
+@media (max-width: 767px) 
+{
+  .hero-section-version2 
+  {
+    min-height: 0vh;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 
+  {
+    padding: 20px !important;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 .icon 
+  {
+    font-size: 28px !important;
+    margin-top: 2px !important;
+  }
+
+   h3  
+  {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+  }
+
+  .contact-section 
+  { 
+    margin-left: -400px !important;
+  }
+}
+
+
+@media (max-width: 575px) 
+{ 
+  .hero-section-version2 
+  {
+    min-height: 0vh;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 
+  {
+    padding: 20px !important;
+  }
+
+  .contact-info-wrapper-22 .contact-info-items-2 .icon 
+  {
+    font-size: 28px !important;
+    margin-top: 2px !important;
+  }
+
+   h3
+  {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+  }
+
+  .contact-section 
+  { 
+    margin-left: -400px !important;
+  }
+  
+}
+
+/* Contact Us Media Query End */
