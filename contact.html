@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="assets/css/aos.css" />
     <!-- Main css -->
     <link rel="stylesheet" href="assets/css/main.css" />
+    
   </head>
 
   <body class="position-relative bg2-clr">
@@ -338,13 +339,16 @@
       <!-- Hero Section Version0 -->
       <section
         class="hero-section-version2 text-center"
-        style="min-height: 70vh"
+        style="min-height: 50vh"
       >
         <div class="container">
           <div class="">
-            <h2 style="color:#062640;margin-top: 60px;"> Get in touch with our team</h2>
+            <h2 style="color:#062640;margin-top: 60px;" data-aos="fade-up" data-aos-duration="700"
+> Get in touch with our team</h2>
             <hr/>
-            <h5 style="color: gray;margin-top: 10px;margin-left: 10px !important;">We have the team and know-how to help you scale 10x faster.</h5>
+            <h5 style="color: gray;margin-top: 10px;margin-left: 10px !important;" data-aos="fade-up"
+            data-aos-duration="700"
+>We have the team and know-how to help you scale 10x faster.</h5>
 
             <!-- Social Media Links Start -->
             <!-- <div class="menuu">
@@ -398,8 +402,9 @@
           <div class="contact-info-wrapper-22">
             <div class="row g-4">
               <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".3s"
+                class="col-xl-4 col-lg-6 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="500"
               >
                 <div class="contact-info-items-2">
                   <div class="icon">
@@ -420,15 +425,15 @@
                 </div>
               </div>
               <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".5s"
-              >
+                class="col-xl-4 col-lg-6 col-md-6 col-sm-6"
+                data-aos="fade-up"
+              data-aos-duration="700">
                 <div class="contact-info-items-2 style-2">
                   <div class="icon">
                     <i class="fa-solid fa-envelope"></i>
                   </div>
-                  <div class="content">
-                    <h3>Email Address</h3>
+                  <div class="content" >
+                    <h3 >Email Address</h3>
                     <ul>
                       <li>
                         <a href="mailto:info@g-software-t.com"
@@ -440,8 +445,9 @@
                 </div>
               </div>
               <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".7s"
+                class="col-xl-4 col-lg-6 col-md-6"
+                data-aos="fade-up"
+              data-aos-duration="500"
               >
                 <div class="contact-info-items-2">
                   <div class="icon">
@@ -469,16 +475,20 @@
       >
         <div class="container">
           <div class="row">
-            <div class="col-xl-8 col-lg-8 wow fadeInUp" data-wow-delay=".5s">
+            <div class="col-xl-8 col-lg-8 ">
               <div
                 class="contact-form-items style-2 style-3"
                 style="color: #062640 !important"
               >
                 <div class="section-title text-center">
-                  <span class="wow fadeInUp contact"
+                  <span class="contact" data-aos="fade-up"
+                  data-aos-duration="500"
+    
                     >contact us<i class="fa-solid fa-arrow-right"></i
                   ></span>
-                  <h2 class="wow fadeInUp contact" data-wow-delay=".3s">
+                  <h2 class="contact" data-aos="fade-up"
+                  data-aos-duration="700"
+    >
                     Email Us!
                   </h2>
                 </div>
@@ -493,7 +503,9 @@
                     name="access_key"
                     value="bba6df53-a796-4740-bc4f-c00a6ab66c92"
                   />
-                  <div class="row g-4">
+                  <div class="row g-4" data-aos="fade-up"
+                  data-aos-duration="500"
+    >
                     <div class="col-lg-6">
                       <div class="form-clt">
                         <input
@@ -636,12 +648,12 @@
                     <div class="input-check payment-save">
                       <input
                         type="checkbox"
-                        class="form-check-input"
+                        class="form-check-input text-white"
                         name="save-for-next"
                         id="saveForNext"
                       />
                       <label for="saveForNext"
-                        >I agree to the <span>Privacy Policy.</span></label
+                        >I agree to the <span class="text-white">Privacy Policy.</span></label
                       >
                     </div>
                   </div>
@@ -906,6 +918,10 @@
           }
         });
       });
+    </script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
