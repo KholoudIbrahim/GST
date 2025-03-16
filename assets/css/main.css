@@ -6055,7 +6055,7 @@ span.imageMask {
 
 .header-sectionv2 {
   position: absolute;
-  top: 0;
+  top: 40px;
   left: 0;
   background-color: #062640;
 }
