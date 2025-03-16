@@ -161,26 +161,33 @@
 
 @media (max-width: 991px) 
 {
-  #slider-wrapper-homepage .slide .item:nth-child(2),
-  #slider-wrapper-homepage .slide .item:nth-child(3), 
-  #slider-wrapper-homepage .slide .item:nth-child(4), 
-  #slider-wrapper-homepage .slide .item:nth-child(5), 
-  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+ #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
+    left: 70%;
+  }
+
+  #slider-wrapper-homepage .item .content {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    /* width: 300px; */
+    /* text-align: left; */
+    color: white;
+    transform: translate(0, -50%);
+    font-family: system-ui;
     display: none;
-  }
+}
 
-  #main #slider-wrapper-homepage .slide .item .content .name,
-  #main #slider-wrapper-homepage .slide .item .content .description,
-  #main #slider-wrapper-homepage .slide .item .content button 
-  {
-    display: block; /* Ensure they stack vertically */
-    font-size: 16px; /* Adjust font size for readability */
-    padding: 10px; /* Add padding for better touch interaction */
-    margin: 5px 0; /* Add margin for spacing */
-  }
-  
+#slider-wrapper-homepage .item .content .name {
+  font-size: 35px !important;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
 
+#slider-wrapper-homepage .item .content .description {
+  margin-bottom: 40px;
+
+}
 #about-product .about-product-thumb img {
   height: 300px;
   width: 400px;
@@ -193,24 +200,33 @@
 
 
 @media (max-width: 767px) {
-  #slider-wrapper-homepage .slide .item:nth-child(2),
-  #slider-wrapper-homepage .slide .item:nth-child(3), 
-  #slider-wrapper-homepage .slide .item:nth-child(4), 
-  #slider-wrapper-homepage .slide .item:nth-child(5), 
-  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+ #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
+    left: 70%;
+  }
+
+  #slider-wrapper-homepage .item .content {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    /* width: 300px; */
+    /* text-align: left; */
+    color: white;
+    transform: translate(0, -50%);
+    font-family: system-ui;
     display: none;
-  }
-  #main #slider-wrapper-homepage .slide .item .content .name,
-  #main #slider-wrapper-homepage .slide .item .content .description,
-  #main #slider-wrapper-homepage .slide .item .content button 
-  {
-    display: block; /* Ensure they stack vertically */
-    font-size: 16px; /* Adjust font size for readability */
-    padding: 10px; /* Add padding for better touch interaction */
-    margin: 5px 0; /* Add margin for spacing */
-  }
-  
+}
+
+#slider-wrapper-homepage .item .content .name {
+  font-size: 35px !important;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+#slider-wrapper-homepage .item .content .description {
+  margin-bottom: 40px;
+
+}
   #about-product .about-product-thumb img {
     height: 300px;
     width: 400px;
@@ -224,24 +240,33 @@
 
 @media (max-width: 575px) 
 { 
-  #slider-wrapper-homepage .slide .item:nth-child(2),
-  #slider-wrapper-homepage .slide .item:nth-child(3), 
-  #slider-wrapper-homepage .slide .item:nth-child(4), 
-  #slider-wrapper-homepage .slide .item:nth-child(5), 
-  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+  #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
+    left: 70%;
+  }
+
+  #slider-wrapper-homepage .item .content {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    /* width: 300px; */
+    /* text-align: left; */
+    color: white;
+    transform: translate(0, -50%);
+    font-family: system-ui;
     display: none;
-  }
-  #main #slider-wrapper-homepage .slide .item .content .name,
-  #main #slider-wrapper-homepage .slide .item .content .description,
-  #main #slider-wrapper-homepage .slide .item .content button 
-  {
-    display: block; /* Ensure they stack vertically */
-    font-size: 16px; /* Adjust font size for readability */
-    padding: 10px; /* Add padding for better touch interaction */
-    margin: 5px 0; /* Add margin for spacing */
-  }
-  
+}
+
+#slider-wrapper-homepage .item .content .name {
+  font-size: 35px !important;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+#slider-wrapper-homepage .item .content .description {
+  margin-bottom: 40px;
+
+}
 #about-product .about-product-thumb img {
   height: 300px;
   width: 400px;
