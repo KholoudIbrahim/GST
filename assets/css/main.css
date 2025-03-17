@@ -1666,24 +1666,6 @@ footer {
   min-height: 100vh;
 }
 
-p.imageMask,
-span.imageMask {
-  /* background-image: url("./assets/img/case/custom.jpg");
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent; */
-  font-size: 66px;
-  line-height: 80px;
-  font-weight: 800;
-  text-transform: uppercase;
-  background: url("../img/case/mobile-dev.jpg") 0 0 / cover no-repeat;
-  /* background-image: url(https://media.giphy.com/media/xULW8Fw2ZhznUptrYA/giphy.gif); */
-  color: #de466c;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 /* social media links start */
 .menuu {
   position: relative;
@@ -10324,9 +10306,7 @@ p {
   border: 10px solid #cde1f8;
   margin-top: 10px;
 }
-#counter .info .icon {
-  /* margin-top: 90px !important; */
-}
+
 
 #counter .card-text {
   margin-top: 20px !important;
@@ -10536,7 +10516,7 @@ p {
     font-family: system-ui;
     display: none;
 }
-}
+
 
 #slider-wrapper-homepage .item .content .name {
   font-size: 35px !important;
@@ -10585,6 +10565,7 @@ p {
     color: white;
     transform: translate(0, -50%);
     font-family: system-ui;
+  }
  #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
     left: 70%;
