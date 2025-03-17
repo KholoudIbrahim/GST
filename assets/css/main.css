@@ -10536,6 +10536,7 @@ p {
     font-family: system-ui;
     display: none;
 }
+}
 
 #slider-wrapper-homepage .item .content .name {
   font-size: 35px !important;
@@ -10570,6 +10571,20 @@ p {
 }
 
 @media (max-width: 767px) {
+ #slider-wrapper-homepage .slide .item:nth-child(3) 
+  {
+    left: 70%;
+  }
+
+  #slider-wrapper-homepage .item .content {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    /* width: 300px; */
+    /* text-align: left; */
+    color: white;
+    transform: translate(0, -50%);
+    font-family: system-ui;
  #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
     left: 70%;

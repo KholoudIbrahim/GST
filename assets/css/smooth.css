@@ -161,14 +161,22 @@
 
 @media (max-width: 991px) 
 {
-  #slider-wrapper-homepage .slide .item:nth-child(2),
-  #slider-wrapper-homepage .slide .item:nth-child(3), 
-  #slider-wrapper-homepage .slide .item:nth-child(4), 
-  #slider-wrapper-homepage .slide .item:nth-child(5), 
-  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+ #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
-    display: none;
+    left: 70%;
   }
+
+  #slider-wrapper-homepage .item .content {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    /* width: 300px; */
+    /* text-align: left; */
+    color: white;
+    transform: translate(0, -50%);
+    font-family: system-ui;
+    display: none;
+}
 
   #main #slider-wrapper-homepage .slide .item .content .name,
   #main #slider-wrapper-homepage .slide .item .content .description,
@@ -193,12 +201,20 @@
 
 
 @media (max-width: 767px) {
-  #slider-wrapper-homepage .slide .item:nth-child(2),
-  #slider-wrapper-homepage .slide .item:nth-child(3), 
-  #slider-wrapper-homepage .slide .item:nth-child(4), 
-  #slider-wrapper-homepage .slide .item:nth-child(5), 
-  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+ #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
+    left: 70%;
+  }
+
+  #slider-wrapper-homepage .item .content {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    /* width: 300px; */
+    /* text-align: left; */
+    color: white;
+    transform: translate(0, -50%);
+    font-family: system-ui;
     display: none;
   }
   #main #slider-wrapper-homepage .slide .item .content .name,
@@ -224,12 +240,20 @@
 
 @media (max-width: 575px) 
 { 
-  #slider-wrapper-homepage .slide .item:nth-child(2),
-  #slider-wrapper-homepage .slide .item:nth-child(3), 
-  #slider-wrapper-homepage .slide .item:nth-child(4), 
-  #slider-wrapper-homepage .slide .item:nth-child(5), 
-  #slider-wrapper-homepage .slide .item:nth-child(n + 6)
+  #slider-wrapper-homepage .slide .item:nth-child(3) 
   {
+    left: 70%;
+  }
+
+  #slider-wrapper-homepage .item .content {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    /* width: 300px; */
+    /* text-align: left; */
+    color: white;
+    transform: translate(0, -50%);
+    font-family: system-ui;
     display: none;
   }
   #main #slider-wrapper-homepage .slide .item .content .name,
