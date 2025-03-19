@@ -154,40 +154,6 @@ CSS TABLE OF CONTENTS
     });
     //--- Counter  End ---//
 
-    //--- Swiper Project Study SLide End ---//
-    // const serviceSlider = new Swiper(".study-slidewrap", {
-    // 	spaceBetween: 0,
-    // 	speed: 1500,
-    // 	loop: true,
-    // 	autoplay: {
-    // 		delay: 1500,
-    // 		disableOnInteraction: false,
-    // 	},
-    // 	navigation: {
-    // 		nextEl: ".cmn-prev",
-    // 		prevEl: ".cmn-next",
-    // 	},
-
-    // 	breakpoints: {
-    // 		1199: {
-    // 			slidesPerView: 1,
-    // 		},
-    // 		991: {
-    // 			slidesPerView: 1,
-    // 		},
-    // 		767: {
-    // 			slidesPerView: 1,
-    // 		},
-    // 		575: {
-    // 			slidesPerView: 1,
-    // 		},
-    // 		0: {
-    // 			slidesPerView: 1,
-    // 		},
-    // 	},
-    // });
-    //--- Swiper project SLide End ---//
-
     //--- Swiper service SLide start ---//
     const studyslidewrap = new Swiper(".study-slidewrap", {
       spaceBetween: 30,
@@ -387,18 +353,19 @@ CSS TABLE OF CONTENTS
     //--- Swiper Team SLide End ---//
 
     //--- Swiper Team SLide End ---//
+
     const trustedInner = new Swiper(".trusted-inner", {
       spaceBetween: 30,
-      speed: 1500,
+      speed: 1300,
       loop: true,
       centeredSlides: true,
       autoplay: {
-        delay: 1500,
+        delay: 50,
         disableOnInteraction: false,
       },
-      pagination: {
-        el: ".swiper-pagination",
-        type: "fraction",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
 
       breakpoints: {

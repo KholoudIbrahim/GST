@@ -187,7 +187,7 @@ function browserLocales(languageCodeOnly = false) {
 // carousel
 $(".owl-carousel").owlCarousel({
   loop: true,
-  margin: 10,
+  // margin: 10,
   nav: true,
   responsive: {
     0: {
@@ -209,47 +209,48 @@ var swiper = new Swiper(".swiper-container", {
   centeredSlides: true,
   initialSlide: 2,
   slidesPerView: "auto",
+  loop: true,
   allowTouchMove: false,
-  spaceBetween: 40,
+  spaceBetween: 30,
   coverflowEffect: {
-    rotate: 25,
+    rotate: 0,
     stretch: 0,
     depth: 50,
     modifier: 1,
     slideShadows: false,
   },
   navigation: {
-    nextEl: ".forward",
-    prevEl: ".backward",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 
-
+// toggle subside menu
 
 
 // Social Menu
 
-document.querySelectorAll(".nav-link").forEach((item) => {
-  item.addEventListener("mouseover", function () {
-    const targetPaneId = this.getAttribute("data-bs-target");
-    const targetPane = document.querySelector(targetPaneId);
+// document.querySelectorAll(".nav-link").forEach((item) => {
+//   item.addEventListener("mouseover", function () {
+//     const targetPaneId = this.getAttribute("data-bs-target");
+//     const targetPane = document.querySelector(targetPaneId);
 
-    // Remove 'active' class from all nav links
-    document.querySelectorAll(".nav-link").forEach((link) => {
-      link.classList.remove("active");
-    });
+//     // Remove 'active' class from all nav links
+//     document.querySelectorAll(".nav-link").forEach((link) => {
+//       link.classList.remove("active");
+//     });
 
-    // Remove 'show' class from all tab panes
-    document.querySelectorAll(".tab-pane").forEach((pane) => {
-      pane.classList.remove("show", "active");
-    });
+//     // Remove 'show' class from all tab panes
+//     document.querySelectorAll(".tab-pane").forEach((pane) => {
+//       pane.classList.remove("show", "active");
+//     });
 
-    // Add 'active' class to the hovered nav link
-    this.classList.add("active");
+//     // Add 'active' class to the hovered nav link
+//     this.classList.add("active");
 
-    // Add 'show' and 'active' classes to the corresponding tab pane
-    if (targetPane) {
-      targetPane.classList.add("show", "active");
-    }
-  });
-});
+//     // Add 'show' and 'active' classes to the corresponding tab pane
+//     if (targetPane) {
+//       targetPane.classList.add("show", "active");
+//     }
+//   });
+// });

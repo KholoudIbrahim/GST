@@ -27,10 +27,6 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
     <!-- Nice Select Css -->
     <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!-- Swiper Slider Css -->
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
-
     <!-- Aos Animation Css -->
     <link rel="stylesheet" href="assets/css/aos.css" />
     <!-- Main css -->
@@ -72,7 +68,10 @@
     <!-- Custom Header Start -->
     <header
       class="header-section header-sectionv2 py-lg-0 py-6"
-      style="background-color: white"
+      style="
+        background-color: white;
+        box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+      "
     >
       <div class="container">
         <div class="main-navbar">
@@ -114,23 +113,11 @@
                     <button
                       class="position-relative ps-5 white-clr fw_500 cus-z1"
                     >
-                      Home
+                      <a href="index.html"> Home </a>
                     </button>
-                    <ul class="sub-menu px-lg-4 py-xxl-3 py-2">
-                      <li class="menu-link py-1">
-                        <a href="index.html" class="fw_500 white-clr"
-                          >Home Page</a
-                        >
-                      </li>
-                      <!-- <li class="menu-link py-1">
-                        <a href="index2.html" class="fw_500 white-clr"
-                          >Home Version-2</a
-                        >
-                      </li> -->
-                    </ul>
                   </li>
                   <li class="menu-item position-relative">
-                    <a href="about.html" class="fw_500"> About Us </a>
+                    <a href="#about-product" class="fw_500"> About Us </a>
                   </li>
                   <li class="menu-item position-relative">
                     <button
@@ -152,80 +139,6 @@
                     </ul>
                   </li>
                   <li class="menu-item position-relative">
-                    <button
-                      class="position-relative ps-5 fw_500 white-clr cus-z1"
-                    >
-                      Pages
-                    </button>
-                    <ul class="sub-menu px-lg-4 py-xxl-3 py-2">
-                      <li class="menu-link py-1">
-                        <a href="about.html" class="fw_500 white-clr">About</a>
-                      </li>
-                      <!-- <li class="menu-link py-1">
-                        <a href="pricing.html" class="fw_500 white-clr"
-                          >Pricing Plan</a
-                        >
-                      </li> -->
-                      <li class="menu-link py-1">
-                        <a href="study-grid.html" class="fw_500 white-clr"
-                          >Case Study</a
-                        >
-                      </li>
-                      <li class="menu-link py-1">
-                        <a href="study-details.html" class="fw_500 white-clr"
-                          >Case Study Details</a
-                        >
-                      </li>
-                      <li class="menu-link py-1">
-                        <a href="team.html" class="fw_500 white-clr"
-                          >Team Grid</a
-                        >
-                      </li>
-                      <li class="menu-link py-1">
-                        <a href="team-details.html" class="fw_500 white-clr"
-                          >Team Details</a
-                        >
-                      </li>
-                      <li class="menu-link py-1">
-                        <a href="faq.html" class="fw_500 white-clr">Faqs</a>
-                      </li>
-                      <!-- <li class="menu-link py-1">
-                        <a href="contact.html" class="fw_500 white-clr"
-                          >Contact</a
-                        >
-                      </li> -->
-                      <li class="menu-link py-1">
-                        <a href="oops.html" class="fw_500 white-clr"
-                          >Oops 404</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item position-relative">
-                    <button
-                      class="position-relative ps-5 fw_500 white-clr cus-z1"
-                    >
-                      Blog
-                    </button>
-                    <ul class="sub-menu px-lg-4 py-xxl-3 py-2">
-                      <li class="menu-link py-1">
-                        <a href="blog-grid.html" class="fw_500 white-clr"
-                          >Blog Grid</a
-                        >
-                      </li>
-                      <li class="menu-link py-1">
-                        <a href="blog-list.html" class="fw_500 white-clr"
-                          >Blog List</a
-                        >
-                      </li>
-                      <li class="menu-link py-1">
-                        <a href="blog-details.html" class="fw_500 white-clr"
-                          >Blog Details</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item position-relative">
                     <a href="contact.html" class="fw_500"> Contact Us </a>
                   </li>
                 </ul>
@@ -235,9 +148,10 @@
               >
                 <div class="search-shopcart d-flex gap-xxl-9 gap-xl-5 gap-2">
                   <select
-                    data-i18n-switcher
+                    data-i18n-switcher=""
                     class="locale-switcher my-auto"
                     id="select"
+                    style="display: none"
                   >
                     <option value="en" style="color: var(--theme) !important">
                       English
@@ -253,6 +167,13 @@
                       Arabic (العربية)
                     </option>
                   </select>
+                  <div class="nice-select locale-switcher my-auto" tabindex="0">
+                    <span class="current"> English </span>
+                    <ul class="list">
+                      <li data-value="en" class="option selected">English</li>
+                      <li data-value="ar" class="option">Arabic (العربية)</li>
+                    </ul>
+                  </div>
                   <a
                     href="tel:+201553304400"
                     class="d-flex align-items-center gap-2"
@@ -264,14 +185,6 @@
                     ></i>
                     +20 1553304400
                   </a>
-
-                  <!-- <a
-                    href="javascript:void(0)"
-                    class="search-trigger search-icon"
-                    style="color: white !important"
-                  >
-                    <i class="fal fa-search"></i>
-                  </a> -->
                 </div>
                 <div class="remove-click remove-clickbg-adding d-center m-auto">
                   <i class="fas fa-bars" style="color: white !important"></i>
@@ -304,10 +217,12 @@
 
     <!-- Main start -->
     <main class="main" style="background-color: white">
-      <!-- Breadcrumb Section Start -->
-      <!-- <div
+      <div
         class="breadcrumb-wrapper bg-cover"
-        style="background-image: url('assets/img/breadcrumb.jpg')"
+        style="
+          background-image: url('assets/img/breadcrumb.jpg');
+          background-color: #113f64;
+        "
       >
         <div class="arrow-shape float-bob-y">
           <img src="assets/img/arrow.png" alt="img" />
@@ -318,65 +233,24 @@
         <div class="container">
           <div class="page-heading">
             <div class="breadcrumb-sub-title">
-              <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                Contact <span style="color: #166fd3">Us</span>
+              <h1 data-aos="fade-up" data-aos-duration="900">
+                Mobile <span style="color: white"> Application Development</span>
               </h1>
             </div>
-            <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <ul
+              class="breadcrumb-items"
+              data-aos="fade-up"
+              data-aos-duration="900"
+            >
               <li>
                 <a href="index.html"> Home </a>
               </li>
               <li>
                 <i class="fa-solid fa-arrow-right"></i>
               </li>
-              <li style="color: #166fd3">Contact Us</li>
+              <li>Services</li>
             </ul>
           </div>
-        </div>
-      </div> -->
-
-      <!-- Hero Section Version0 -->
-      <section
-        class="hero-section-version2 d-flex align-items-center justify-content-center"
-        style="min-height: 20vh"
-      >
-        <div class="container">
-          <div class="hero-v2-content-contactUs">
-            <h1
-              class="black-clr"
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-              style="margin-top: 60px"
-            >
-              <!-- <span class="black-clr">  Software and Technical Solutions</span> -->
-              <span
-                class="text-adjust position-relative d-inline-flex align-items-center"
-              >
-                <span class="black-clr imageMask" style="font-size: 65px">
-                  Mobile App Development
-                </span>
-                <img
-                  src="assets/img/banner/soft-star.png"
-                  alt="img"
-                  class="soft-star1-contactUs float-bob-y"
-                />
-              </span>
-            </h1>
-          </div>
-        </div>
-        <!-- Element -->
-        <img
-          src="assets/img/banner/soft-star.png"
-          alt="img"
-          class="soft-star2-mobile float-bob-y"
-        />
-      </section>
-      <div class="text-center" style="margin-top: -60px">
-        <div class="col-lg-12">
-          <h4 class="text-black">
-            Designing innovative mobile apps that enhance user engagement and
-            customer experience.
-          </h4>
         </div>
       </div>
       <!-- Hero Section Version0 -->
@@ -384,7 +258,7 @@
       <!-- Portfolio Section Start -->
       <section class="portfolio">
         <div class="main-containerr">
-          <div class="col-6">
+          <div class="col-6" data-aos="fade-up" data-aos-duration="900">
             <div class="cardd mx-5">
               <a href="https://tharawatcompany.com/" target="_blank">
                 <div class="thumbnail">
@@ -435,7 +309,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-6" data-aos="fade-up" data-aos-duration="900">
             <div class="cardd mx-5">
               <a href="#">
                 <div class="thumbnail">
@@ -493,6 +367,112 @@
       </section>
       <!-- Portfolio Section End -->
 
+       <!-- Contact Section Start -->
+      <section
+        class="contact-section fix section-padding pt-0 text-center"
+        style="margin-left: 400px"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 col-lg-8">
+              <div
+                class="contact-form-items style-2 style-3"
+                style="color: #062640 !important"
+              >
+                <div class="section-title text-center">
+                  <span
+                    class="contact"
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    >contact us<i class="fa-solid fa-arrow-right"></i
+                  ></span>
+                  <h2
+                    class="contact"
+                    data-aos="fade-up"
+                    data-aos-duration="700"
+                  >
+                    Email Us!
+                  </h2>
+                </div>
+                <form
+                  id="contact-form"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  class="mt-4 mt-md-0"
+                >
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="bba6df53-a796-4740-bc4f-c00a6ab66c92"
+                  />
+                  <div
+                    class="row g-4"
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                  >
+                    <div class="col-lg-6">
+                      <div class="form-clt">
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Full Name*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-clt">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email2"
+                          placeholder="Email Address*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-clt">
+                        <div class="">
+                          <select
+                            class="nice-select"
+                            type="text"
+                            name="service-Selected"
+                            id="service-Selected"
+                          >
+                            <option disabled>Our services</option>
+                            <option>Custom Software Solutions</option>
+                            <option>Web Development</option>
+                            <option>Technical and Executive Consulting</option>
+                            <option>Mobile App Development</option>
+                            <option>
+                              Feasibility Studies and Marketing Plans
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-clt">
+                        <textarea
+                          name="message"
+                          id="message"
+                          placeholder="Your Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-7 text-center" style="margin-left: 20%">
+                      <button type="submit" class="theme-btn text-center">
+                        Send Message
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Contact Info Section Start -->
       <section
         class="contact-info-areas fix section-padding"
@@ -502,8 +482,9 @@
           <div class="contact-info-wrapper-22">
             <div class="row g-4">
               <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".3s"
+                class="col-xl-4 col-lg-6 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="500"
               >
                 <div class="contact-info-items-2">
                   <div class="icon">
@@ -516,16 +497,14 @@
                         Mobile :
                         <a href="tel:+201553304400">+20 1553304400</a>
                       </li>
-                      <!-- <li>
-                        Fax : <a href="tel:+442081234567">+44-208-1234567</a>
-                      </li> -->
                     </ul>
                   </div>
                 </div>
               </div>
               <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".5s"
+                class="col-xl-4 col-lg-6 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="700"
               >
                 <div class="contact-info-items-2 style-2">
                   <div class="icon">
@@ -544,8 +523,9 @@
                 </div>
               </div>
               <div
-                class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".7s"
+                class="col-xl-4 col-lg-6 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="500"
               >
                 <div class="contact-info-items-2">
                   <div class="icon">
@@ -565,137 +545,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Contact Section Start -->
-      <section
-        id="contact-form"
-        class="contact-section fix section-padding pt-0 text-center"
-        style="margin-left: 400px"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-8 col-lg-8 wow fadeInUp" data-wow-delay=".5s">
-              <div
-                class="contact-form-items style-2 style-3"
-                style="color: #062640 !important"
-              >
-                <div class="section-title text-center">
-                  <span class="wow fadeInUp contact"
-                    >contact us<i class="fa-solid fa-arrow-right"></i
-                  ></span>
-                  <h2 class="wow fadeInUp contact" data-wow-delay=".3s">
-                    Get in touch!
-                  </h2>
-                </div>
-                <form id="contact-form" class="mt-4 mt-md-0">
-                  <div class="row g-4">
-                    <div class="col-lg-6">
-                      <div class="form-clt">
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Full Name*"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="form-clt">
-                        <input
-                          type="text"
-                          name="email"
-                          id="email2"
-                          placeholder="Email Address*"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-clt">
-                        <div class="nice-select" tabindex="0">
-                          <span class="current"> Type of Services </span>
-                          <ul class="list">
-                            <li data-value="1" class="option selected focus">
-                              Service
-                            </li>
-                            <li data-value="1" class="option">Pricing</li>
-                            <li data-value="1" class="option">Support</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-clt">
-                        <textarea
-                          name="message"
-                          id="message"
-                          placeholder="Your Message"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="col-lg-7 text-center" style="margin-left: 20%">
-                      <button
-                        type="submit"
-                        href="mailto:info@g-software-t.com"
-                        class="theme-btn text-center"
-                      >
-                        Send Message
-                        <i class="fa-solid fa-arrow-right-long"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-              <div class="map-items">
-                <div class="googpemap">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                  ></iframe>
-                </div>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </section>
-
-      <!-- Marquee Section Start -->
-      <!-- <div class="marquee-sections fix section-padding pt-0">
-        <div class="mycustom-marque">
-          <div class="scrolling-wrap gap-100">
-            <div class="comm">
-              <div class="cmn-textslide textitalick text-custom-storke">
-                Contact
-              </div>
-              <div class="cmn-textslide textitalick text-custom-storke">us</div>
-              <div class="cmn-textslide textitalick text-custom-storke">
-                now
-              </div>
-            </div>
-            <div class="comm">
-              <div class="cmn-textslide textitalick text-custom-storke">
-                Contact
-              </div>
-              <div class="cmn-textslide textitalick text-custom-storke">us</div>
-              <div class="cmn-textslide textitalick text-custom-storke">
-                now
-              </div>
-            </div>
-            <div class="comm">
-              <div class="cmn-textslide textitalick text-custom-storke">
-                Contact
-              </div>
-              <div class="cmn-textslide textitalick text-custom-storke">us</div>
-              <div class="cmn-textslide textitalick text-custom-storke">
-                now
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </main>
     <!-- Main End -->
 
@@ -827,36 +676,27 @@
         <i class="fas fa-times"></i>
       </div>
       <div class="sub-contact-wrapper d-grid">
-        <a href="index.html" class="side-logo">
-          <img src="assets/img/logo/logo.png" alt="img" />
+        <a href="index.html" class="side-logo mt-5">
+          <img src="assets/img/logo/gst.png" alt="img" />
         </a>
-        <p>
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-          consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam,
-          exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam
-          nihil
-        </p>
+        <a href="/index.html" style="margin-top: 5px">
+          <p class="txt">Home</p>
+        </a>
+        <hr style="margin-top: -25px" />
+        <a href="#about-product" style="margin-top: 5px">
+          <p class="txt">About Us</p>
+        </a>
+        <hr style="margin-top: -25px" />
+        <a href="#sponsor-section" style="margin-top: 5px">
+          <p class="txt">Services</p>
+        </a>
+        <hr style="margin-top: -25px" />
+        <a href="/contact.html" style="margin-top: 5px">
+          <p class="txt">Contact Us</p>
+        </a>
+        <hr style="margin-top: -25px" />
         <div class="sub-contact-left d-grid">
-          <div class="sub__contac-item">
-            <div class="content">
-              <span class="address d-block"> Address </span>
-              <span class="textp"> Loterl Poinent k/ls United Statate. </span>
-            </div>
-          </div>
-          <div class="sub__contac-item">
-            <div class="content">
-              <span class="address d-block"> Email </span>
-              <a href="javascript:void(0)" class="textp">
-                example021@gmail.com
-              </a>
-            </div>
-          </div>
-          <div class="sub__contac-item">
-            <div class="content">
-              <span class="address d-block"> Call now </span>
-              <a href="jasacript:void(0)" class="textp"> +996 1425 7471 0.2 </a>
-            </div>
-          </div>
+          <div class="sub__contac-item"></div>
         </div>
         <ul
           class="common-social d-flex align-items-center gap-2 mb-xxl-10 mb-xl-9 mb-8"
@@ -935,15 +775,12 @@
             </a>
           </li>
         </ul>
-        <a
-          href="contact.html"
-          class="d-flex cmn-btn cmn-border justify-content-center fw-500 align-items-center gap-2 py-xl-3 py-2 px-2 rounded"
-        >
-          <span class="icons">
-            <i class="fas fa-arrow-up white"></i>
-          </span>
-          <span class="get-text"> Let's Talk </span>
-        </a>
+
+        <p class="pra-clr mt-5" style="color: white !important">
+          &copy; 2025
+          <a href="index.html" class="theme-clr">G.S.T</a>. All Copyrights
+          Reserved.
+        </p>
       </div>
     </div>
     <!-- Sub Sidebar Custom End -->
@@ -964,8 +801,6 @@
     <script src="assets/js/magnific-popup.js"></script>
     <!-- js Nice Select start -->
     <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- js Swiper start -->
-    <script src="assets/js/swiper.js"></script>
     <!-- js Aos Counterup start -->
     <script src="assets/js/jquery.counterup.min.js"></script>
     <!-- js Aos Animation start -->
@@ -974,7 +809,7 @@
     <script src="assets/js/vanilla-tilt.min.js"></script>
     <!-- js Mian start -->
     <script src="assets/js/main.js"></script>
-    <script>
+    <!-- <script>
       document.querySelectorAll(".nav-link").forEach((item) => {
         item.addEventListener("mouseover", function () {
           const targetPaneId = this.getAttribute("data-bs-target");
@@ -999,6 +834,9 @@
           }
         });
       });
+    </script> -->
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
