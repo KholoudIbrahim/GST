@@ -3,53 +3,51 @@
   <!--<< Header Area >>-->
   <head>
     <!-- == Meta Tags == -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Keywords -->
-    <meta name="keywords" content="boot, Bootstrap, Webgen - HTML Template" />
+    <meta name="keywords" content="boot, Bootstrap, G.S.T">
     <!--  Description -->
-    <meta name="description" content="Webgen - Landing HTML Template" />
+    <meta name="description" content="Webgen - Landing HTML Template">
     <!-- == Page title == -->
     <title>G.S.T - ElGenidy Software & Technical solutions</title>
     <!-- Favicon/x-icon -->
     <link
       rel="shortcut icon"
       href="assets/img/logo/gst.png"
-      type="image/x-icon"
-    />
+      type="image/x-icon">
     <!-- Bootstrap Min 5.2.3 Css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawsome Icons Css-->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <!-- Magnifiq Popup Css -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- Nice Select Css -->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Swiper Slider Css -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <!-- Aos Animation Css -->
-    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/aos.css">
 
     <!--  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
+    >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
+    >
     <!--  -->
-
-    <link rel="stylesheet" href="assets/css/smooth.css" />
+    <link rel="stylesheet" href="assets/css/smooth.css">
     <!-- Main css -->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
     <!-- Nice Select Css -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
+    >
   </head>
 
   <body class="position-relative bg2-clr">
@@ -98,15 +96,15 @@
                     class="w-100 h-50"
                     src="./assets/img/logo/gst.png"
                     alt="logo"
-                  />
+                  >
                 </a>
                 <div class="d-flex align-items-center gap-xxl-5 gap-5">
-                  <a
+                  <!-- <a
                     href="javascript:void(0)"
                     class="search-trigger search-icon d-lg-none d-block"
                   >
                     <i class="fal fa-search"></i>
-                  </a>
+                  </a> -->
                   <button
                     class="navbar-toggle-btn d-block d-lg-none"
                     type="button"
@@ -123,42 +121,56 @@
                   class="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5"
                 >
                   <li class="menu-item position-relative">
+                    <a href="index.html">
                     <button
-                      class="position-relative ps-5 white-clr fw_500 cus-z1"
-                    >
-                      <a href="index.html">
-                          Home
-                      </a>
+                      class="position-relative ps-5 white-clr fw_500 cus-z1" data-i18n-key="home">
+                          Home   
                     </button>
-
+                    </a>
 
                   </li>
                   <li class="menu-item position-relative">
-                    <a href="#about-product" class="fw_500">
+                    <a href="#about-product" class="fw_500" data-i18n-key="about-us">
                       About Us
                     </a>
                   </li>
                   <li class="menu-item position-relative">
                     <button
                       class="position-relative ps-5 fw_500 white-clr cus-z1"
+                      data-i18n-key="our-services"
                     >
                       Services
                     </button>
                     <ul class="sub-menu px-lg-4 py-xxl-3 py-2">
                       <li class="menu-link py-1">
-                        <a href="service.html" class="fw_500 white-clr"
-                          >Service</a
+                        <a href="custom-solutions.html" class="fw_500 white-clr" data-i18n-key="custom-sw"
+                          >Custom Software Solutions</a
                         >
                       </li>
                       <li class="menu-link py-1">
-                        <a href="service-details.html" class="fw_500 white-clr"
-                          >Service Details</a
+                        <a href="web-design.html" class="fw_500 white-clr" data-i18n-key="web-dev"
+                          >Web Development</a
+                        >
+                      </li>
+                      <li class="menu-link py-1">
+                        <a href="consulting.html" class="fw_500 white-clr" data-i18n-key="custom-sw"
+                          >Technical and Executive Consulting</a
+                        >
+                      </li>
+                      <li class="menu-link py-1">
+                        <a href="mobile-app.html" class="fw_500 white-clr" data-i18n-key="mobile-dev">
+                          Mobile App Development</a
+                        >
+                      </li>
+                      <li class="menu-link py-1">
+                        <a href="plans.html" class="fw_500 white-clr" data-i18n-key="plans-s">
+                          Feasibility Studies and Marketing Plans</a
                         >
                       </li>
                     </ul>
                   </li>
                   <li class="menu-item position-relative">
-                    <a href="contact.html" class="fw_500">
+                    <a href="contact.html" class="fw_500" data-i18n-key="contact-us">
                       Contact Us
                     </a>
                   </li>
@@ -177,13 +189,6 @@
                       English
                     </option>
                     <option value="ar">
-                      <img
-                        src="./assets/img/flags/eg.png"
-                        class="w-100 h-100"
-                        width="5"
-                        height="5"
-                        alt=""
-                      />
                       Arabic (العربية)
                     </option>
                   </select>
@@ -212,7 +217,7 @@
     <!-- Custom Header End -->
 
     <!-- Custom Search Start -->
-    <div class="search-wrap">
+    <!-- <div class="search-wrap">
       <div class="search-inner">
         <i class="fas fa-times search-close" id="search-close"></i>
         <div class="search-cell">
@@ -222,27 +227,27 @@
                 type="search"
                 class="main-search-input"
                 placeholder="Search..."
-              />
+              >
             </div>
           </form>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Custom Search End -->
 
     <!-- Main start -->
-    <main id="main" class="main position-relative overflow-hidden" id="mains">
+    <main id="main" class="main position-relative overflow-hidden">
       <section style="z-index: 888; background: #062640 !important;" class="d-flex align-items-center justify-content-center ">
        <div id="slider-wrapper-homepage">
       <div class="slide">
         <!-- Custom Software Solutions Start -->
         <div class="item" style="background: url('./assets/img/case/custom-solution.jpg')">
           <div class="content">
-            <div class="name">Custom Software Solutions</div>
-            <div class="description">
+            <div class="name" data-i18n-key="custom-sw">Custom Software Solutions</div>
+            <div class="description" data-i18n-key="custom-desc">
               Designing and developing software tailored to meet the precise needs of your business.
             </div>
-            <button class="see-more">
+            <button class="see-more" data-i18n-key="see-more">
               <p> 
                 <a href="custom-solutions.html">
                 See More
@@ -259,11 +264,11 @@
           style="background: url('./assets/img/case/business.jpg')"
         >
           <div class="content">
-            <div class="name">Technical and Executive Consulting</div>
-            <div class="description">
-Providing comprehensive consulting services to help make informed technical decisions.
+            <div class="name" data-i18n-key="consulting-s">Technical and Executive Consulting</div>
+            <div class="description" data-i18n-key="consulting-desc">
+                Providing comprehensive consulting services to help make informed technical decisions.
             </div>
-            <button class="see-more">
+            <button class="see-more" data-i18n-key="see-more">
               <p> 
                 <a href="consulting.html">
                   See More
@@ -279,11 +284,11 @@ Providing comprehensive consulting services to help make informed technical deci
           style="background: url('./assets/img/case/web.jpg')"
         >
           <div class="content">
-            <div class="name">Web Development</div>
-            <div class="description">
+            <div class="name" data-i18n-key="web-dev">Web Development</div>
+            <div class="description" data-i18n-key="web-desc">
               Creating websites with exceptional user interfaces and seamless browsing experiences.
             </div>
-           <button class="see-more">
+           <button class="see-more" data-i18n-key="see-more">
               <p> 
                 <a href="web-design.html">
                   See More
@@ -301,11 +306,11 @@ Providing comprehensive consulting services to help make informed technical deci
           style="background: url('./assets/img/case/mobile-d.jpg')"
         >
           <div class="content">
-            <div class="name">Mobile App Development</div>
-            <div class="description">
- Designing innovative mobile apps that enhance user engagement and customer experience.
+            <div class="name" data-i18n-key="mobile-dev">Mobile App Development</div>
+            <div class="description" data-i18n-key="mobile-desc">
+                Designing innovative mobile apps that enhance user engagement and customer experience.
             </div>
-           <button class="see-more">
+           <button class="see-more" data-i18n-key="see-more">
               <p> 
                 <a href="mobile-app.html">
                   See More
@@ -319,10 +324,10 @@ Providing comprehensive consulting services to help make informed technical deci
         <!-- Feasibility Studies and Marketing Plans Start -->
         <div class="item" style="background: url('./assets/img/case/finance-graphs.jpg')">
           <div class="content">
-            <div class="name" style="font-size: 40px;">Feasibility Studies and Marketing Plans</div>
-            <div class="description">
-Preparing comprehensive feasibility studies and implementing marketing strategies to explore new opportunities.            </div>
-           <button class="see-more">
+            <div class="name" style="font-size: 40px;" data-i18n-key="plans-s">Feasibility Studies and Marketing Plans</div>
+            <div class="description" data-i18n-key="plans-desc">
+                Preparing comprehensive feasibility studies and implementing marketing strategies to explore new opportunities.            </div>
+           <button class="see-more" data-i18n-key="see-more">
               <p> 
                 <a href="plans.html">
                   See More
@@ -346,50 +351,58 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
       <!-- Custom Line Shape -->
 
 
-<!-- New About Section Start -->
+
          <!-- About v02 Start -->
-        <section id="about-product"  class="about-product pt-space pb-space" style="background-color: #062640;">
+        <section id="about-product" class="about-product pt-space pb-space" style="background-color: #062640;">
             <div class="container">
+
+    <div class="row"><div class="container">
+          <div class="pricing-title position-relative text-center mb-xxl-15 mb-14 text-white">
+            <div data-aos="fade-up" data-aos-duration="500" class="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-3 py-2 px-xxl-5 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 text-white aos-init aos-animate"
+            data-i18n-key="who-are-we">
+              WHO ARE WE
+              <span class="rot60">
+                <i class="fas fa-arrow-up theme-clr text-white"></i>
+              </span>
+            </div>
+            <h2 class="stitle aos-init aos-animate" data-aos="fade-up" data-aos-duration="700" data-i18n-key="who-are-title">About G.S.T</h2>
+          </div>
+        </div> </div>
 
                 <div class="row">
 
                     <div class="col-lg-6">
                         <div class="about-product-content about-content-v02 ps-xxl-10">
                             <div class="pricing-title">
-        <div class="container">
-          <div
-            class="pricing-title position-relative text-center mb-xxl-15 mb-14 text-white"
-          >
-            <div data-aos="fade-up"
-            data-aos-duration="500"
-              class="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-3 py-2 px-xxl-5 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 text-white"
-            
-            >
-              ABOUT US
-              <span class="rot60">
-                <i class="fas fa-arrow-up theme-clr text-white"></i>
-              </span>
-            </div>
-            <h2 class="stitle" data-aos="fade-up"
-            data-aos-duration="700">What we Do?</h2>
-          </div>
-        </div>
+        
                              
 
-                                  <div class="d-flex flex-sm-nowrap flex-wrap align-items-center gap-xxl-10 gap-7 gap-md-5 gap-4 mb-xxl-11 mb-xl-10 mb-lg-9 mb-md-7 mb-6 mt-5"
-                                    data-aos="fade-up" data-aos-duration="1900">
-                                    <p class="text-white" style="font-size: 20px;">
-                                     <b style="font-size: 24px;">At El-Genidy, we provide:</b> <br/> - innovative and specialized software solutions <br/> - website Development
-                                       <br/> - mobile app development <br/> - along with comprehensive technical consulting services. <br/> We work with:<br/> - businesses, <br/> -organizations, <br/> -and entrepreneurs to help them overcome their technical challenges and achieve their goals efficiently and effectively
-                                    </p>
+<div class="d-flex flex-sm-nowrap flex-wrap align-items-center gap-xxl-10 gap-7 gap-md-5 gap-4 mb-xxl-11 mb-xl-10 mb-lg-9 mb-md-7 mb-6 mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1900" style="margin-top: 95px !important;line-height: 1.2;">
+  <section class="about-us">
+  <div class="container">
+    <div class="about-us-content">
+      <p class="text-white" data-i18n-key="who-are-subtitle" style="font-size: 30px;font-weight: 700;">
+        نصمم التكنولوجيا لخدمة أعمالكم بكفاءة
+      </p>
+      <p class="text-white mt-5" data-i18n-key="who-are-content">
+        شركة GST هي شركة مصرية متخصصة في الحلول البرمجية والتقنية، تأسست بهدف واضح: تقديم حلول ذكية وعملية لكل تحدٍ تقني. نرافق عملاءنا في جميع مراحل المشروع، بدءًا من التحليل والتخطيط، مرورًا بالتصميم والتطوير، وصولًا إلى الإطلاق والدعم الفني.
+      </p>
+      <ul class="about-us-features mt-5">
+        <li data-i18n-key="who-are-first"></li>
+        <li data-i18n-key="who-are-second"></li>
+        <li data-i18n-key="who-are-third"></li>
+      </ul>
+    </div>
+  </div>
+</section>
                                   </div>
 
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-sm-12" >
-                      <div class="about-product-thumb w-100" data-aos="zoom-in" data-aos-duration="2000" style="margin-left: 50px !important;margin-top: 95px !important;">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="about-product-thumb w-100 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="2000" style="margin-left: 50px !important;margin-top: 45px !important;">
                           <img src="./assets/img/case/web.jpg" alt="img" class="" style="height: 450px;width: 600px;">
                       </div>
                   </div>
@@ -397,7 +410,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
             </div>
         </section>
         <!-- About v02 End -->
-<!-- New About Section End -->
+
 
 
       <div
@@ -410,31 +423,36 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
           >
             <div data-aos="fade-up"
             data-aos-duration="500"
-              class="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-3 py-2 px-xxl-5 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 text-white"
-            >
-              WHAT WE OFFER
+            class="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-3 py-2 px-xxl-5 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 text-white"
+            data-i18n-key="our-services"
+              >
+              WHAT WE DO
               <span class="rot60">
                 <i class="fas fa-arrow-up theme-clr text-white"></i>
               </span>
             </div>
             <h2 class="stitle" data-aos="fade-up"
-            data-aos-duration="700">our main services</h2>
+            data-aos-duration="700" data-i18n-key="our-services-desc">our main services</h2>
           </div>
         </div>
         <div class="digital-marketing mb-lg-0 mb-10">
           <div class="comm">
-            <div class="cmn-textslide d-grid position-relative">
-              <span
-                class="d-flex justify-content-center serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
-              >
-                01
-                <span class="rot60 d-inline-block theme-clr">
-                  <i class="fa-solid fa-arrow-right"></i>
+
+            <a href="custom-solutions.html">
+              <div class="cmn-textslide d-grid position-relative" data-i18n-key="custom-sw">
+                <span
+                  class="d-flex justify-content-center serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
+                >
+                  01
+                  <span class="rot60 d-inline-block theme-clr">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
                 </span>
-              </span>
-              Product Design
-           
-            </div>
+                Custom Software Solutions
+             
+              </div>
+            </a>
+            <a href="web-design.html">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -444,24 +462,27 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              UI/UX Experience
-          
+               Web Development
             </div>
-            <div class="cmn-textslide d-grid position-relative">
-              <span
-                class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
-              >
+            </a>
+            <a href="consulting.html">
+              <div class="cmn-textslide d-grid position-relative">
+                <span
+                  class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
+                >
                 03
                 <span class="rot60 d-inline-block theme-clr">
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Digital Marketing
+              Technical and Executive Consulting
           
             </div>
+            </a>
           </div>
           <div class="comm">
-            <div class="cmn-textslide d-grid position-relative">
+            <a href="mobile-app.html" class="this">
+               <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex justify-content-center serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
               >
@@ -470,9 +491,12 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Product Design
+              Mobile App Development
       
             </div>
+            </a>
+
+            <a href="plans.html">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -482,8 +506,11 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              UI/UX Experience
+              Feasibility Studies and Marketing Plans
             </div>
+            </a>
+
+            <a href="">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -493,13 +520,17 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Digital Marketing
+              UI/UX Experience
               
             </div>
+            </a>
+
           </div>
         </div>
         <div class="digital-marketing text-slie-reverse">
           <div class="comm">
+            
+            <a href="custom-solutions.html">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex justify-content-center serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -509,9 +540,11 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Ecommerce Solutions
-           
+              Custom Software Solutions          
             </div>
+            </a>
+
+            <a href="web-design.html">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -521,9 +554,11 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Custom Solutions
-              
+              Web Development
             </div>
+            </a>
+
+            <a href="consulting.html">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -533,11 +568,14 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Ecommerce
+              Technical and Executive Consulting
         
             </div>
+            </a>
+
           </div>
           <div class="comm">
+            <a href="mobile-app.html">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex justify-content-center serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -547,9 +585,12 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Custom Solutions
+              Mobile App Development
             
             </div>
+            </a>
+
+            <a href="plans.html">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -559,9 +600,12 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Mobile app
+              Feasibility Studies and Marketing Plans
              
             </div>
+            </a>
+
+            <a href="">
             <div class="cmn-textslide d-grid position-relative">
               <span
                 class="d-flex serial-badge align-items-center gap-4 cmn-border radius100 white-clr"
@@ -571,9 +615,11 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   <i class="fa-solid fa-arrow-right"></i>
                 </span>
               </span>
-              Creative Design
+              UI/UX Experience
            
             </div>
+            </a>
+
           </div>
         </div>
       </div>
@@ -584,21 +630,23 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
           <div class="swiper-container trusted-inner">
             <div class="swiper-wrapper" data-effect="coverflow">
               <div class="swiper-slide" style="margin-inline: 90px !important">
-                <a href="">
+                <a href="custom-solutions.html">
                   <div class="card" style="width: 18rem">
                     <img
                       class="card-img-top"
                       src="assets/img/case/custom.jpg"
                       alt="tharawat website"
                       style="width: 450px; height: 350px"
-                    />
+                       loading="lazy"
+                    >
 
                     <div class="card-body">
-                      <h5 class="card-title">Custom Software Solutions</h5>
-                      <p class="card-text">
+                      <h5 class="card-title" 
+                  data-i18n-key="custom-sw">Custom Software Solutions</h5>
+                      <p class="card-text" data-i18n-key="custom-desc">
                         Designing and developing software tailored to meet..
                       </p>
-                      <a href="#" class="btn btn-primary more-details">More Details</a>
+                      <a href="#" class="btn btn-primary more-details" data-i18n-key="more-details">More Details</a>
                     </div>
                   </div>
                 </a>
@@ -611,37 +659,39 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                       src="./assets/img/projects/tharawat.PNG"
                       alt="tharawat website"
                      style="width: 450px; height: 350px"
-                    />
+                      loading="lazy"
+                    >
 
                     <div class="card-body">
-                      <h5 class="card-title">Website Development<h5>
-                      <p class="card-text">
+                      <h5 class="card-title" data-i18n-key="web-dev">Website Development<h5>
+                      <p class="card-text" data-i18n-key="web-desc">
                         Creating websites with exceptional user interfac..
                       </p>
-                      <a href="#" class="btn btn-primary more-details">More Details</a>
+                      <a href="#" class="btn btn-primary more-details" data-i18n-key="more-details">More Details</a>
                     </div>
 
                   </div>
                 </a>
               </div>
               <div class="swiper-slide" style="margin-inline: 90px !important">
-                <a href="">
+                <a href="consulting.html">
                   <div class="card" style="width: 18rem">
                     <img
                       class="card-img-top"
                     src="assets/img/case/consulting.jpg"
                       alt="Card image cap"
                       style="width: 450px; height: 350px"
-                    />
+                       loading="lazy"
+                    >
 
                     <div class="card-body">
-                      <h5 class="card-title">
+                      <h5 class="card-title" data-i18n-key="consulting-s">
                         Technical and Executive Consulting
                       </h5>
-                      <p class="card-text">
+                      <p class="card-text" data-i18n-key="consulting-desc">
                         Providing comprehensive consulting services to..
                       </p>
-                      <a href="#" class="btn btn-primary more-details">More Details</a>
+                      <a href="#" class="btn btn-primary more-details" data-i18n-key="more-details">More Details</a>
                     </div>
                   </div>
                 </a>
@@ -654,35 +704,37 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                     src="assets/img/case/mobile-dev.jpg"
                       alt="Card image cap"
                       style="width: 450px; height: 350px"
-                    />
+                       loading="lazy"
+                    >
 
                     <div class="card-body">
-                      <h5 class="card-title">Mobile Application Development</h5>
-                      <p class="card-text">
+                      <h5 class="card-title" data-i18n-key="mobile-dev">Mobile Application Development</h5>
+                      <p class="card-text" data-i18n-key="mobile-desc">
                         Designing innovative mobile apps that enhance..
                       </p>
-                      <a href="#" class="btn btn-primary more-details">More Details</a>
+                      <a href="#" class="btn btn-primary more-details" data-i18n-key="more-details">More Details</a>
                     </div>
                   </div>
                 </a>
               </div>
               <div class="swiper-slide" style="margin-inline: 90px !important">
-                <a href="">
+                <a href="plans.html">
                   <div class="card" style="width: 18rem">
                     <img
                       class="card-img-top"
                       src="assets/img/case/plans.jpg"  alt="Card image cap"
                       style="width: 450px; height: 350px"
-                    />
+                       loading="lazy"
+                    >
 
                     <div class="card-body">
-                      <h5 class="card-title">
+                      <h5 class="card-title" data-i18n-key="plans-s">
                         Feasibility Studies and Marketing Plans
                       </h5>
-                      <p class="card-text">
+                      <p class="card-text" data-i18n-key="plans-desc">
                         Preparing comprehensive feasibility studies and..
                       </p>
-                      <a href="#" class="btn btn-primary more-details">More Details</a>
+                      <a href="#" class="btn btn-primary more-details" data-i18n-key="more-details">More Details</a>
                     </div>
                   </div>
                 </a>
@@ -717,6 +769,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                     data-i18n-key="vision"
                     data-aos="fade-up"
                   data-aos-duration="500"
+                  data-i18n-key="vision"
                   >
                     Vision
                   </h2>
@@ -727,6 +780,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                     data-i18n-key="vision-desc"
                     data-aos="fade-up"
                   data-aos-duration="600"
+                  data-i18n-key="vision-desc"
                   >
                     At El-Genidy, our vision is to be the first choice for
                     businesses and startups by providing innovative software and
@@ -805,19 +859,20 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
               </div>
 
               <div class="col-lg-6">
-                <div class="awards-content">
+                <div class="awards-content awards-content2 ">
                   <div class=""data-aos="fade-up">
 
-                    <div class="text-custom-storke"  data-aos="zoom-in" data-wow-delay=".4s">Our</div>
+                    <div class="text-custom-storke"  data-aos="zoom-in" data-wow-delay=".4s" data-i18n-key="our">Our</div>
                     <h2
                       class="wow fadeInUp my-4"
                       style="margin-left: 50px"
                        data-aos="zoom-in" data-wow-delay=".4s"
+                       data-i18n-key="mission"
                     >
                       Mission
                     </h2>
                   </div>
-                  <p class="wow fadeInUp"  data-aos="fade-up" data-wow-delay=".4s">
+                  <p class="wow fadeInUp"  data-aos="fade-up" data-wow-delay=".4s" data-i18n-key="mission-desc">
                     We are committed to delivering exceptional software
                     solutions, creating distinguished websites, developing
                     innovative mobile apps, and offering technical and executive
@@ -844,7 +899,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                 <div class="icon" data-aos="fade-up"
                 data-aos-duration="500">
                   <i class="fa-solid fa-user-group"></i>
-                  <h2 class="card-title" style="font-size: 70px;width: 600px;">
+                  <h2 class="card-title" style="font-size: 70px;width: 600px;" data-i18n-key="transparency-section">
                     Transparency
                   </h2>
                 </div>
@@ -856,7 +911,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                     solutions creating distinguished websites developing
                     innovative mobile apps offering technical and executive
                     consulting that helps our clients achieve their
-                    technological and business goals.  <br/>
+                    technological and business goals.  <br>
                     We strive for constant innovation, enabling our clients to realize their visions
                     through scientific and technical approaches.</p>
                 </div>
@@ -881,7 +936,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
             <div data-aos="fade-up"
             data-aos-duration="500"
               class="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-3 py-2 px-xxl-5 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 text-white"
-            
+              data-i18n-key="how-work"
             >
               How We Work
               <span class="rot60">
@@ -889,7 +944,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
               </span>
             </div>
             <h2 class="stitle" data-aos="fade-up"
-            data-aos-duration="700">Why Choose US</h2>
+            data-aos-duration="700" data-i18n-key="why-us">Why Choose US</h2>
           </div>
         
 
@@ -901,19 +956,19 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
             >
               <div class="service-box-items">
                 <div class="icon">
-                  <img src="assets/img/icon/icon-1.svg" alt="img" />
+                  <img src="assets/img/icon/icon-1.svg" alt="img">
                 </div>
                 <div class="number">01</div>
                 <div class="content">
                   <h3>
-                    <a href="service-details.html"
+                    <a href="" data-i18n-key="collab"
                       >Achieving Sustainable Success</a
                     >
                   </h3>
                   
-                  <ul class="mb-0">
-                    <li>
-                      <i class="fa-light fa-circle-check"></i>
+                  <ul class="mb-0 d-flex">
+                    <i class="fa-light fa-circle-check" style="margin-top: 6px;margin-right: 8px;"></i>
+                    <li data-i18n-key="collab-desc">
                       Providing software and technology solutions that help our
                       clients achieve long-term goals.
                     </li>
@@ -929,18 +984,18 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
             >
               <div class="service-box-items">
                 <div class="icon">
-                  <img src="assets/img/icon/icon-2.svg" alt="img" />
+                  <img src="assets/img/icon/icon-2.svg" alt="img">
                 </div>
                 <div class="number">02</div>
                 <div class="content">
                   <h3>
-                    <a href="service-details.html"
+                    <a href="" data-i18n-key="results"
                       >Enhancing Technical Performance</a
                     >
                   </h3>
-                  <ul class="mb-0">
-                    <li>
-                      <i class="fa-light fa-circle-check"></i>
+                  <ul class="mb-0 d-flex">
+                    <i class="fa-light fa-circle-check" style="margin-top: 6px;margin-right: 8px;"></i>
+                    <li data-i18n-key="results-desc">
                       Assisting in the development of systems and technologies
                       that increase productivity and improve customer
                       interaction.
@@ -957,19 +1012,19 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
             >
               <div class="service-box-items">
                 <div class="icon">
-                  <img src="assets/img/icon/icon-3.svg" alt="img" />
+                  <img src="assets/img/icon/icon-3.svg" alt="img">
                 </div>
                 <div class="number">03</div>
                 <div class="content">
                   <h3>
-                    <a href="service-details.html"
+                    <a href="" data-i18n-key="transparency"
                       >Empowering Business Growth</a
                     >
                   </h3>
                
-                  <ul class="mb-0">
-                    <li>
-                      <i class="fa-light fa-circle-check"></i>
+                  <ul class="mb-0 d-flex">
+                    <i class="fa-light fa-circle-check" style="margin-top: 6px;margin-right: 8px;"></i>
+                    <li data-i18n-key="trans-desc">
                       Offering feasibility studies and comprehensive marketing
                       plans that aid in expansion and growth.
                     </li>
@@ -989,11 +1044,11 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                 </div>
                 <div class="number">04</div>
                 <div class="content">
-                  <h3><a href="service-details.html">Ongoing Support</a></h3>
+                  <h3><a href="" data-i18n-key="ongoing-support">Ongoing Support</a></h3>
                   
-                  <ul class="mb-0">
-                    <li>
-                      <i class="fa-light fa-circle-check"></i>
+                  <ul class="mb-0 d-flex">
+                    <i class="fa-light fa-circle-check" style="margin-top: 6px;margin-right: 8px;"></i>
+                    <li data-i18n-key="support-desc">
                       Providing continuous support and guidance to ensure the
                       successful implementation of solutions.
                     </li>
@@ -1006,6 +1061,9 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
         </div>
       </section>
 
+
+
+
       <!-- Text SLider Start -->
       <div class="digital-solution bg1-clr home-onetext pb-20">
         <a href="contact.html">
@@ -1014,26 +1072,26 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
           <div class="scrolling-wrap" data-aos="fade-up"
           data-aos-duration="500">
             <div class="comm">
-              <div class="cmn-textslide textitalick">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide text-custom-storke">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide textitalick">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide text-custom-storke">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide textitalick">Let’s talk!</div>
+              <div class="cmn-textslide textitalick" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide text-custom-storke" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide textitalick" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide text-custom-storke" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide textitalick" data-i18n-key="contact-coursel">Let’s talk!</div>
             </div>
             <div class="comm">
-              <div class="cmn-textslide textitalick">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide text-custom-storke">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide textitalick">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide text-custom-storke">Let’s talk!</div>
-              <div><img src="assets/img/footer/let-arrow.png" alt="img" /></div>
-              <div class="cmn-textslide textitalick">Let’s talk!</div>
+              <div class="cmn-textslide textitalick" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide text-custom-storke" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide textitalick" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide text-custom-storke" data-i18n-key="contact-coursel">Let’s talk!</div>
+              <div><img src="assets/img/footer/let-arrow.png" alt="img"></div>
+              <div class="cmn-textslide textitalick" data-i18n-key="contact-coursel">Let’s talk!</div>
             </div>
           </div>
         </div>
@@ -1041,6 +1099,64 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
 
       </div>
       <!-- Text Slider End -->
+
+
+            <section style="min-height: 50vh; display: flex;align-items: center;justify-content: center;background-color: #062640;padding-bottom: 100px;">
+        <div class="price-section">
+	<article class="price-table" style="background-color: white;">
+		<div class="price" style="color: #062640;background-color: white;">تواصل معنا</div>
+		<span class="title" style="color: #062640;background-color: white;">هل لديكم فكرة مشروع وتبحثون عن الشريك التقني المناسب لتنفيذها؟</span>
+		<span class="description">يسعدنا تواصلكم معنا لتقديم استشارة أولية مجانية، والرد خلال 24 ساعة.
+		</span>
+		<div class="features">
+			
+			<details class="feature">
+				<summary>
+					<i aria-hidden="true" class="checkmark">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+							<path fill="none" d="M0 0h24v24H0z"></path>
+							<path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+						</svg>
+					</i>
+					<span class="name">	واتساب مباشر</span>
+					<i aria-hidden="true" class="question-icon">
+						
+					</i>
+				</summary>
+				
+			</details>
+			<details class="feature">
+				<summary>
+					<i aria-hidden="true" class="checkmark">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+							<path fill="none" d="M0 0h24v24H0z"></path>
+							<path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+						</svg>
+					</i>
+					<span class="name">استشارة أولية مجانية</span>
+				
+				</summary>
+				
+			</details>
+			<details class="feature">
+				<summary>
+					<i aria-hidden="true" class="checkmark">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+							<path fill="none" d="M0 0h24v24H0z"></path>
+							<path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+						</svg>
+					</i>
+					<span class="name">دعم سريع ومهني</span>
+					
+				</summary>
+			
+			</details>
+
+		</div>
+	</article>
+</div>
+      </section>
+
     </main>
     <!-- Main End -->
 
@@ -1060,6 +1176,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   class="footer-title mb-xxl-7 mb-xl-6 mb-5"
                   data-aos="zoom-in-down"
                   data-aos-duration="1900"
+                  data-i18n-key="about-us"
                 >
                   About Us
                   <svg
@@ -1105,7 +1222,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   Phasellus ultricies aliquam volutpat ullamcorper laoreet
                   neque, a lacinia curabitur lacinia mollis
                 </p>
-                <ul class="common-social d-flex align-items-center gap-2">
+                <ul class="common-social d-flex align-items-center gap-5">
                   <li data-aos="zoom-in-right" data-aos-duration="1400">
                     <a href="#" class="d-center">
                       <svg
@@ -1131,18 +1248,9 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   </li>
                   <li data-aos="zoom-in-right" data-aos-duration="1600">
                     <a href="#" class="d-center">
-                      <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M14.3553 4.74149C14.3655 4.88362 14.3655 5.02577 14.3655 5.1679C14.3655 9.5029 11.066 14.4978 5.03553 14.4978C3.17766 14.4978 1.45178 13.9597 0 13.0258C0.263969 13.0562 0.51775 13.0664 0.791875 13.0664C2.32484 13.0664 3.73603 12.5486 4.86294 11.6654C3.42131 11.6349 2.21319 10.6907 1.79694 9.39124C2 9.42168 2.20303 9.44199 2.41625 9.44199C2.71066 9.44199 3.00509 9.40137 3.27919 9.33034C1.77666 9.02574 0.649719 7.70596 0.649719 6.11205V6.07146C1.08625 6.31512 1.59391 6.4674 2.13194 6.48768C1.24869 5.89884 0.670031 4.89377 0.670031 3.75671C0.670031 3.14759 0.832437 2.58921 1.11672 2.1019C2.73094 4.09174 5.15734 5.39121 7.87812 5.53337C7.82737 5.28971 7.79691 5.03593 7.79691 4.78212C7.79691 2.97499 9.25884 1.50293 11.0761 1.50293C12.0202 1.50293 12.873 1.89887 13.472 2.53846C14.2131 2.39634 14.9238 2.12221 15.5532 1.74659C15.3096 2.50802 14.7918 3.14762 14.1116 3.55368C14.7715 3.48265 15.4111 3.29987 15.9999 3.04609C15.5533 3.6958 14.9949 4.27446 14.3553 4.74149V4.74149Z"
-                          fill="white"
-                        />
-                      </svg>
+                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="20" viewBox="0 0 50 50">
+                      <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z" fill="white"></path>
+                  </svg>
                     </a>
                   </li>
                   <li data-aos="zoom-in-right" data-aos-duration="1800">
@@ -1163,22 +1271,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                       </svg>
                     </a>
                   </li>
-                  <li data-aos="zoom-in-right" data-aos-duration="1900">
-                    <a href="#" class="d-center">
-                      <svg
-                        width="18"
-                        height="12"
-                        viewBox="0 0 18 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M17.1769 1.87759C16.9806 1.13853 16.4023 0.556469 15.668 0.358938C14.337 0 9.00014 0 9.00014 0C9.00014 0 3.66327 0 2.3323 0.358938C1.59802 0.5565 1.0197 1.13853 0.823422 1.87759C0.466797 3.21719 0.466797 6.01213 0.466797 6.01213C0.466797 6.01213 0.466797 8.80706 0.823422 10.1467C1.0197 10.8857 1.59802 11.4435 2.3323 11.6411C3.66327 12 9.00014 12 9.00014 12C9.00014 12 14.337 12 15.668 11.6411C16.4023 11.4435 16.9806 10.8857 17.1769 10.1467C17.5335 8.80706 17.5335 6.01213 17.5335 6.01213C17.5335 6.01213 17.5335 3.21719 17.1769 1.87759V1.87759ZM7.25467 8.54972V3.47453L11.7153 6.01219L7.25467 8.54972V8.54972Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -1283,6 +1376,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   class="footer-title mb-xxl-7 mb-xl-6 mb-5"
                   data-aos="zoom-in-down"
                   data-aos-duration="1900"
+                  data-i18n-key="our-services"
                 >
                   Services
                   <svg
@@ -1327,20 +1421,23 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                 >
                   <li>
                     <a
-                      href="service.html"
+                      href="custom-solutions.html"
                       class="d-flex align-items-center gap-2 flink-items pra-clr"
+                      data-i18n-key="custom-sw"
                     >
                       <span class="ani-icons">
                         <i class="fas fa-angle-double-right pra-clr"></i>
                       </span>
-                      UI/UX Experience
+                      
+                      Custom Software Solutions
                     </a>
                   </li>
                   <li>
                     <a
-                      href="study-grid.html"
+                      href="web-design.html"
                       class="d-flex align-items-center gap-2 flink-items pra-clr"
-                    >
+                      data-i18n-key="web-dev"
+                      >
                       <span class="ani-icons">
                         <i class="fas fa-angle-double-right pra-clr"></i>
                       </span>
@@ -1349,24 +1446,38 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
                   </li>
                   <li>
                     <a
-                      href="study-grid.html"
+                      href="plans.html"
                       class="d-flex align-items-center gap-2 flink-items pra-clr"
-                    >
+                    data-i18n-key="plans-s"
+                      >
                       <span class="ani-icons">
                         <i class="fas fa-angle-double-right pra-clr"></i>
                       </span>
-                      Product Design
+                      Feasibility Studies and Marketing Plans
                     </a>
                   </li>
                   <li>
                     <a
-                      href="service.html"
+                      href="mobile-app.html"
                       class="d-flex align-items-center gap-2 flink-items pra-clr"
-                    >
+                    data-i18n-key="mobile-dev"
+                      >
                       <span class="ani-icons">
                         <i class="fas fa-angle-double-right pra-clr"></i>
                       </span>
-                      SEO Optimization
+                      Mobile App Development
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="consulting.html"
+                      class="d-flex align-items-center gap-2 flink-items pra-clr"
+                    data-i18n-key="consulting-s"
+                      >
+                      <span class="ani-icons">
+                        <i class="fas fa-angle-double-right pra-clr"></i>
+                      </span>
+                      Technical and Executive Consulting
                     </a>
                   </li>
                 </ul>
@@ -1446,7 +1557,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
           data-aos-duration="1600"
         >
           <a href="index.html" class="footer-logov1 m-sm-0 m-auto">
-            <img src="./assets/img/logo/gst.png" alt="img" />
+            <img src="./assets/img/logo/gst.png" alt="img">
           </a>
           <a href="#main" class="footer-topscroll d-center themebg">
             <i class="fas fa-arrow-up"></i>
@@ -1470,28 +1581,28 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
       </div>
       <div class="sub-contact-wrapper d-grid">
         <a href="index.html" class="side-logo mt-5">
-          <img src="assets/img/logo/gst.png" alt="img" />
+          <img src="assets/img/logo/gst.png" alt="img">
         </a>
-        <a href="/index.html" style="margin-top:5px ;">
-          <p class="txt">
+        <a href="/index.html" style="margin-top:5px;">
+          <p class="txt" data-i18n-key="home">
             Home
           </p>
         </a>
         <hr style="margin-top:-25px ;"/>
         <a href="#about-product" style="margin-top:5px ;">
-          <p class="txt">
+          <p class="txt" data-i18n-key="about-us">
             About Us
           </p>
         </a>
         <hr style="margin-top:-25px ;"/>
         <a href="#sponsor-section" style="margin-top:5px ;">
-          <p class="txt">
+          <p class="txt" data-i18n-key="our-services">
             Services
           </p>
         </a>
         <hr style="margin-top:-25px ;"/>
         <a href="/contact.html" style="margin-top:5px ;">
-          <p class="txt">
+          <p class="txt" data-i18n-key="contact-us">
             Contact Us
           </p>
         </a>
@@ -1530,17 +1641,8 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
           </li>
           <li data-aos="zoom-in-right" data-aos-duration="1600">
             <a href="#" class="d-center">
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.3553 4.74149C14.3655 4.88362 14.3655 5.02577 14.3655 5.1679C14.3655 9.5029 11.066 14.4978 5.03553 14.4978C3.17766 14.4978 1.45178 13.9597 0 13.0258C0.263969 13.0562 0.51775 13.0664 0.791875 13.0664C2.32484 13.0664 3.73603 12.5486 4.86294 11.6654C3.42131 11.6349 2.21319 10.6907 1.79694 9.39124C2 9.42168 2.20303 9.44199 2.41625 9.44199C2.71066 9.44199 3.00509 9.40137 3.27919 9.33034C1.77666 9.02574 0.649719 7.70596 0.649719 6.11205V6.07146C1.08625 6.31512 1.59391 6.4674 2.13194 6.48768C1.24869 5.89884 0.670031 4.89377 0.670031 3.75671C0.670031 3.14759 0.832437 2.58921 1.11672 2.1019C2.73094 4.09174 5.15734 5.39121 7.87812 5.53337C7.82737 5.28971 7.79691 5.03593 7.79691 4.78212C7.79691 2.97499 9.25884 1.50293 11.0761 1.50293C12.0202 1.50293 12.873 1.89887 13.472 2.53846C14.2131 2.39634 14.9238 2.12221 15.5532 1.74659C15.3096 2.50802 14.7918 3.14762 14.1116 3.55368C14.7715 3.48265 15.4111 3.29987 15.9999 3.04609C15.5533 3.6958 14.9949 4.27446 14.3553 4.74149V4.74149Z"
-                  fill="white"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="20" viewBox="0 0 50 50">
+              <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z" fill="white"></path>
               </svg>
             </a>
           </li>
@@ -1562,22 +1664,7 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
               </svg>
             </a>
           </li>
-          <li data-aos="zoom-in-right" data-aos-duration="1900">
-            <a href="#" class="d-center">
-              <svg
-                width="18"
-                height="12"
-                viewBox="0 0 18 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17.1769 1.87759C16.9806 1.13853 16.4023 0.556469 15.668 0.358938C14.337 0 9.00014 0 9.00014 0C9.00014 0 3.66327 0 2.3323 0.358938C1.59802 0.5565 1.0197 1.13853 0.823422 1.87759C0.466797 3.21719 0.466797 6.01213 0.466797 6.01213C0.466797 6.01213 0.466797 8.80706 0.823422 10.1467C1.0197 10.8857 1.59802 11.4435 2.3323 11.6411C3.66327 12 9.00014 12 9.00014 12C9.00014 12 14.337 12 15.668 11.6411C16.4023 11.4435 16.9806 10.8857 17.1769 10.1467C17.5335 8.80706 17.5335 6.01213 17.5335 6.01213C17.5335 6.01213 17.5335 3.21719 17.1769 1.87759V1.87759ZM7.25467 8.54972V3.47453L11.7153 6.01219L7.25467 8.54972V8.54972Z"
-                  fill="white"
-                />
-              </svg>
-            </a>
-          </li>
+          
         </ul>
 
 
@@ -1625,6 +1712,5 @@ Preparing comprehensive feasibility studies and implementing marketing strategie
     <script src="./assets/js/smooth-image-slider.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/scripts.js"></script>
-    <script src="assets/js/swiper.js"></script>
   </body>
 </html>

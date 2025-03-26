@@ -354,41 +354,50 @@ CSS TABLE OF CONTENTS
 
     //--- Swiper Team SLide End ---//
 
-    const trustedInner = new Swiper(".trusted-inner", {
-      spaceBetween: 30,
-      speed: 1300,
-      loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 50,
-        disableOnInteraction: false,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+    // const trustedInner = new Swiper(".trusted-inner", {
 
-      breakpoints: {
-        1199: {
-          slidesPerView: 6,
-        },
-        991: {
-          slidesPerView: 6,
-        },
-        767: {
-          slidesPerView: 5,
-        },
-        500: {
-          slidesPerView: 4,
-        },
-        320: {
-          slidesPerView: 3,
-        },
-        0: {
-          slidesPerView: 2,
-        },
-      },
-    });
+    //   spaceBetween: 10,
+    //   speed: 3000,
+    //   loop: true,
+    //   allowTouchMove: true,
+    //   centeredSlides: true,
+
+    //   autoplay: {
+    //     delay: 10,
+    //     disableOnInteraction: false,
+    //   },
+    //   navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev",
+    //   },
+    //   coverflowEffect: {
+    //     rotate: 0,
+    //     stretch: 0,
+    //     depth: 50,
+    //     modifier: 1,
+    //     slideShadows: false,
+    //   },
+    //   breakpoints: {
+    //     1199: {
+    //       slidesPerView: 7,
+    //     },
+    //     991: {
+    //       slidesPerView: 6,
+    //     },
+    //     767: {
+    //       slidesPerView: 5,
+    //     },
+    //     500: {
+    //       slidesPerView: 4,
+    //     },
+    //     320: {
+    //       slidesPerView: 3,
+    //     },
+    //     0: {
+    //       slidesPerView: 2,
+    //     },
+    //   },
+    // });
     //--- Swiper Team SLide End ---//
 
     //>> Brand Slider Start <<//

@@ -148,32 +148,15 @@
               >
                 <div class="search-shopcart d-flex gap-xxl-9 gap-xl-5 gap-2">
                   <select
-                    data-i18n-switcher=""
+                    data-i18n-switcher
                     class="locale-switcher my-auto"
                     id="select"
-                    style="display: none"
                   >
                     <option value="en" style="color: var(--theme) !important">
                       English
                     </option>
-                    <option value="ar">
-                      <img
-                        src="./assets/img/flags/eg.png"
-                        class="w-100 h-100"
-                        width="5"
-                        height="5"
-                        alt=""
-                      />
-                      Arabic (العربية)
-                    </option>
+                    <option value="ar">Arabic (العربية)</option>
                   </select>
-                  <div class="nice-select locale-switcher my-auto" tabindex="0">
-                    <span class="current"> English </span>
-                    <ul class="list">
-                      <li data-value="en" class="option selected">English</li>
-                      <li data-value="ar" class="option">Arabic (العربية)</li>
-                    </ul>
-                  </div>
                   <a
                     href="tel:+201553304400"
                     class="d-flex align-items-center gap-2"
@@ -233,7 +216,11 @@
         <div class="container">
           <div class="page-heading">
             <div class="breadcrumb-sub-title">
-              <h1 data-aos="fade-up" data-aos-duration="900">
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-i18n-key="web-dev"
+              >
                 Web <span style="color: white">Development</span>
               </h1>
             </div>
@@ -367,7 +354,7 @@
       </section>
       <!-- Portfolio Section End -->
 
-       <!-- Contact Section Start -->
+      <!-- Contact Section Start -->
       <section
         class="contact-section fix section-padding pt-0 text-center"
         style="margin-left: 400px"
