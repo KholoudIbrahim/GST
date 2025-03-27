@@ -10776,18 +10776,9 @@ html[dir="rtl"] #slider-wrapper-homepage .item{
     transform: scaleX(-1); /*mirroring an image for RTL*/
 }
 
-html[dir="rtl"] #slider-wrapper-homepage .slide .item.item:nth-child(3),#slider-wrapper-homepage .slide .item.item:nth-child(4),#slider-wrapper-homepage .slide .item.item:nth-child(5){
+html[dir="rtl"] #slider-wrapper-homepage .slide .item.item:nth-child(3),html[dir="rtl"] #slider-wrapper-homepage .slide .item.item:nth-child(4), html[dir="rtl"] #slider-wrapper-homepage .slide .item.item:nth-child(5){
   top:30%;
 }
-/* html[dir="rtl"] #slider-wrapper-homepage .slide .item:nth-child(2){} */
-/* html[dir="rtl"] #slider-wrapper-homepage .slide .item:nth-child(2){
-    transform: scaleX(-1) !important; 
-    margin-top:-190px;
-    margin-left:72px !important;
-}
- */
-
-
 
 
 /* RTL Design and Media Queries End */
