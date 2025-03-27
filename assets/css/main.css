@@ -10780,7 +10780,30 @@ html[dir="rtl"] #slider-wrapper-homepage .slide .item.item:nth-child(3),html[dir
   top:30%;
 }
 
+.about-product-thumb p {
+  font-size: 39px !important;
+    font-weight: 700;
+    margin-bottom: 42px !important;
+    line-height: 1;
+    margin-left: -90px;
+    width: 800px;
+}
 
+.about-product-thumb img {
+    height: 485px;
+    border: 4px white solid;
+    width: 800px !important;
+    box-shadow: 0px -5px 65px 5px #6f7378;
+    border-radius: 25px;
+    margin-inline: -100px !important; 
+}
+.about-us-content p {
+    font-size: 23px;
+    width: 630px;
+    margin-top: 125px !important;
+    line-height: 1.1;
+    font-weight: 600;
+}
 /* RTL Design and Media Queries End */
 
 #subside-barmenu ul {
