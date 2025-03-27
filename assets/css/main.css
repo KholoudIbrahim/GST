@@ -10674,8 +10674,17 @@ html[dir="rtl"] #slider-wrapper-homepage .content .description {
   margin-bottom: 30px !important;
 }
 
+#slider-wrapper-homepage .content button {
+height: 53px;
+}
+
 html[dir="rtl"] #slider-wrapper-homepage .content button {
     height: 53px;
+}
+html[dir="rtl"] #slider-wrapper-homepage .content {
+    transform: scaleX(-1) !important;
+    margin-top: -190px;
+    margin-left: -72px ;
 }
 
 html[dir="rtl"] #sponsor-section {
@@ -10755,6 +10764,31 @@ margin-right: -112px !important;
 html[dir="rtl"] #counter .card-title {
 margin-left: -295px !important;
 }
+
+html[dir="rtl"] #slider-wrapper-homepage {
+    transform: scaleX(-1); /*mirroring an image for RTL*/
+    margin-left: 85px !important;
+    margin-right: 26px !important;
+    margin-top: 179px !important;
+}
+
+html[dir="rtl"] #slider-wrapper-homepage .item{
+    transform: scaleX(-1); /*mirroring an image for RTL*/
+}
+
+html[dir="rtl"] #slider-wrapper-homepage .slide .item.item:nth-child(3),#slider-wrapper-homepage .slide .item.item:nth-child(4),#slider-wrapper-homepage .slide .item.item:nth-child(5){
+  top:30%;
+}
+/* html[dir="rtl"] #slider-wrapper-homepage .slide .item:nth-child(2){} */
+/* html[dir="rtl"] #slider-wrapper-homepage .slide .item:nth-child(2){
+    transform: scaleX(-1) !important; 
+    margin-top:-190px;
+    margin-left:72px !important;
+}
+ */
+
+
+
 
 /* RTL Design and Media Queries End */
 
@@ -10920,6 +10954,18 @@ margin-left: -295px !important;
   padding-inline: 10px !important;
   padding-block: 10px;
 }
+
+/* JavaScript will add this class when "next" is clicked */
+.slide .slide-left {
+  transform: translateX(-100%); /* Move slides left by 1 item width */
+}
+
+/* JavaScript will remove this class when "prev" is clicked */
+.slide .slide-left .reset {
+    transform: translateX(0);
+}
+
+
 
 #select::after {
   content: "\25BC"; /* Down arrow character */
