@@ -66,13 +66,7 @@
     </div>
 
     <!-- Custom Header Start -->
-    <header
-      class="header-section header-sectionv2 py-lg-0 py-6"
-      style="
-        background-color: white;
-        box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-      "
-    >
+    <header class="header-section header-sectionv2 py-lg-0 py-6" style="background-color: white;box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);">
       <div class="container">
         <div class="main-navbar">
           <nav class="navbar-custom">
@@ -85,15 +79,15 @@
                     class="w-100 h-50"
                     src="./assets/img/logo/gst.png"
                     alt="logo"
-                  />
+                  >
                 </a>
                 <div class="d-flex align-items-center gap-xxl-5 gap-5">
-                  <a
+                  <!-- <a
                     href="javascript:void(0)"
                     class="search-trigger search-icon d-lg-none d-block"
                   >
                     <i class="fal fa-search"></i>
-                  </a>
+                  </a> -->
                   <button
                     class="navbar-toggle-btn d-block d-lg-none"
                     type="button"
@@ -110,40 +104,56 @@
                   class="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5"
                 >
                   <li class="menu-item position-relative">
+                    <a href="index.html">
                     <button
-                      class="position-relative ps-5 white-clr fw_500 cus-z1"
-                    >
-                      <a href="index.html"> Home </a>
+                      class="position-relative ps-5 white-clr fw_500 cus-z1" data-i18n-key="home">
+                          Home   
                     </button>
+                    </a>
+
                   </li>
                   <li class="menu-item position-relative">
-                    <a href="#about-product" class="fw_500"> About Us </a>
+                    <a href="#about-product" class="fw_500" data-i18n-key="about-us">
+                      About Us
+                    </a>
                   </li>
                   <li class="menu-item position-relative">
                     <button
                       class="position-relative ps-5 fw_500 white-clr cus-z1"
+                      data-i18n-key="serv"
                     >
                       Services
                     </button>
                     <ul class="sub-menu px-lg-4 py-xxl-3 py-2">
                       <li class="menu-link py-1">
-                        <a href="service.html" class="fw_500 white-clr"
-                          >Service</a
+                        <a href="custom-solutions.html" class="fw_500 white-clr" data-i18n-key="custom-sw"
+                          >Custom Software Solutions</a
                         >
                       </li>
                       <li class="menu-link py-1">
-                        <a href="service-details.html" class="fw_500 white-clr"
-                          >Service Details</a
+                        <a href="web-design.html" class="fw_500 white-clr" data-i18n-key="web-dev"
+                          >Web Development</a
+                        >
+                      </li>
+                      <li class="menu-link py-1">
+                        <a href="consulting.html" class="fw_500 white-clr" data-i18n-key="consulting-s"
+                          >Technical and Executive Consulting</a
+                        >
+                      </li>
+                      <li class="menu-link py-1">
+                        <a href="mobile-app.html" class="fw_500 white-clr" data-i18n-key="mobile-dev">
+                          Mobile App Development</a
+                        >
+                      </li>
+                      <li class="menu-link py-1">
+                        <a href="plans.html" class="fw_500 white-clr" data-i18n-key="plans-s">
+                          Feasibility Studies and Marketing Plans</a
                         >
                       </li>
                     </ul>
                   </li>
                   <li class="menu-item position-relative">
-                    <a
-                      href="contact.html"
-                      class="fw_500"
-                      data-i18n-key="contact-us"
-                    >
+                    <a href="contact.html" class="fw_500" data-i18n-key="contact-us">
                       Contact Us
                     </a>
                   </li>
@@ -161,7 +171,9 @@
                     <option value="en" style="color: var(--theme) !important">
                       English
                     </option>
-                    <option value="ar">Arabic (العربية)</option>
+                    <option value="ar">
+                      Arabic (العربية)
+                    </option>
                   </select>
                   <a
                     href="tel:+201553304400"
@@ -174,6 +186,7 @@
                     ></i>
                     +20 1553304400
                   </a>
+
                 </div>
                 <div class="remove-click remove-clickbg-adding d-center m-auto">
                   <i class="fas fa-bars" style="color: white !important"></i>
@@ -209,16 +222,12 @@
       <div
         class="breadcrumb-wrapper bg-cover"
         style="
-          background-image: url('assets/img/breadcrumb.jpg');
-          background-color: #113f64;
+          background-image: url('./assets/img/case/web.jpg');
+           background-size: cover;
+          height: 80vh !important;
         "
       >
-        <div class="arrow-shape float-bob-y">
-          <img src="assets/img/arrow.png" alt="img" />
-        </div>
-        <div class="dot-shape float-bob-y">
-          <img src="assets/img/dot-r.png" alt="img" />
-        </div>
+      
         <div class="container">
           <div class="page-heading">
             <div class="breadcrumb-sub-title">
@@ -226,6 +235,7 @@
                 data-aos="fade-up"
                 data-aos-duration="900"
                 data-i18n-key="web-dev"
+                style="margin-top: -90px"
               >
                 Web <span style="color: white">Development</span>
               </h1>
@@ -235,18 +245,27 @@
               data-aos="fade-up"
               data-aos-duration="900"
             >
-              <li>
-                <a href="index.html"> Home </a>
+               <li
+                class="text-white"
+                style="margin-top: 60px; margin-bottom: 0px"
+              >
+                <h3 style="font-size: 35px" data-i18n-key="web-desc"></h3>
               </li>
-              <li>
-                <i class="fa-solid fa-arrow-right"></i>
-              </li>
-              <li>Services</li>
+             
             </ul>
           </div>
         </div>
       </div>
       <!-- Hero Section Version0 -->
+
+      <!-- why choose web with us start -->
+      <!-- <div class="container">
+        <div class="loaderrrrr"></div>
+        <div class="loaderrrrr"></div>
+        <div class="loaderrrrr"></div>
+      </div> -->
+
+      <!-- why choose web with us end -->
 
       <!-- Portfolio Section Start -->
       <section class="portfolio">
@@ -261,9 +280,9 @@
                     alt="Tharawat Website"
                   />
                 </div>
-                <h3 class="titlee">Tharawat Website</h3>
+                <h3 class="titlee" data-i18n-key="tharawat">Tharawat Website</h3>
               </a>
-              <div class="descriptionn">
+              <div class="descriptionn" data-i18n-key="thr-desc">
                 Tharawat is a leading company in providing diverse services
                 covering several vital areas aiming to support and develop the
                 local and international economy. The company was established to
@@ -272,7 +291,7 @@
               </div>
 
               <div>
-                <h6 class="mt-5" style="color: #062640">Tools Used:</h6>
+                <h6 class="mt-5 mb-3" style="color: #062640" data-i18n-key="tools-used">Tools Used:</h6>
                 <div class="">
                   <div class="tools-span">
                     <span>HTML5</span>
@@ -291,13 +310,13 @@
 
               <div class="btns">
                 <div class="cart-btn">
-                  <a href="#contact-form">
+                  <a href="#contact-form" data-i18n-key="purchase">
                     <span class="fas fa-shopping-cart text-white"></span
                     >Purchase
                   </a>
                 </div>
                 <a href="https://tharawatcompany.com/" target="_blank">
-                  <button class="buy-btn">Preview</button>
+                  <button class="buy-btn" id="buy-btn" data-i18n-key="preview">Preview</button>
                 </a>
               </div>
             </div>
@@ -312,9 +331,9 @@
                     alt="Souq Mazad Website"
                   />
                 </div>
-                <h3 class="titlee">Souq Mazad Website</h3>
+                <h3 class="titlee" data-i18n-key="souq">Souq Mazad Website</h3>
               </a>
-              <div class="descriptionn">
+              <div class="descriptionn" data-i18n-key="souq-desc">
                 Souq Mazad offers a valuable experience within the global
                 e-commerce landscape. It's more than just an app for buying and
                 selling; it also allows you to buy, sell, shop, swap items. Souq
@@ -323,7 +342,7 @@
               </div>
 
               <div>
-                <h6 class="mt-5" style="color: #062640">Tools Used:</h6>
+                <h6 class="mt-5 mb-3" style="color: #062640" data-i18n-key="tools-used">Tools Used:</h6>
                 <div class="">
                   <div class="tools-span">
                     <span>HTML5</span>
@@ -345,26 +364,167 @@
 
               <div class="btns">
                 <div class="cart-btn">
-                  <a href="#contact-form">
+                  <a href="#contact-form" data-i18n-key="purchase">
                     <span class="fas fa-shopping-cart text-white"></span
                     >Purchase
                   </a>
                 </div>
                 <a href="#">
-                  <button class="buy-btn">Preview</button>
+                  <button class="buy-btn" id="buy-btn" data-i18n-key="preview">Preview</button>
                 </a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+      <!-- Portfolio Section Start -->
+      <section class="portfolio" style="margin-top: -100px;">
+        <div class="main-containerr">
+          <div class="col-12" data-aos="fade-up" data-aos-duration="900">
+            <div class="cardd mx-5">
+              <a href="" target="_blank">
+                <div class="thumbnail">
+                  <img
+                    src="./assets/img/case/design-house.PNG"
+                    style="height: 410px"
+                    alt="Tharawat Website"
+                  />
+                </div>
+                <h3 class="titlee" data-i18n-key="design-house">Tharawat Website</h3>
+              </a>
+              <div class="descriptionn" data-i18n-key="design-house-desc">
+                
+              </div>
+
+              <div>
+                <h6 class="mt-5" style="color: #062640" data-i18n-key="tools-used">Tools Used:</h6>
+                <div class="">
+                  <div class="tools-span">
+                    <span>HTML5</span>
+                  </div>
+                  <div class="tools-span">
+                    <span>CSS3</span>
+                  </div>
+                  <div class="tools-span">
+                    <span>Bootstrap</span>
+                  </div>
+                  <div class="tools-span">
+                    <span>Vanilla JS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="btns">
+                <div class="cart-btn">
+                  <a href="#contact-form" data-i18n-key="purchase">
+                    <span class="fas fa-shopping-cart text-white"></span
+                    >Purchase
+                  </a>
+                </div>
+                <a href="https://tharawatcompany.com/" target="_blank">
+                  <button class="buy-btn" id="buy-btn" data-i18n-key="preview">Preview</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+      <!-- Contact Info Section Start -->
+      <section
+        class="contact-info-areas fix section-padding"
+        style="background-color: white"
+      >
+        <div class="container">
+          <div class="contact-info-wrapper-22">
+            <div class="row g-4">
+              <div
+                class="col-xl-4 col-lg-6 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <div class="contact-info-items-2">
+                  <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="content">
+                    <h3 data-i18n-key="phone-num">Phone Number</h3>
+                    <ul>
+                      <li>
+                        <span data-i18n-key="mob-num" class="text-white">
+                          Mobile :</span
+                        >
+                        <a
+                          href="tel:+201553304400"
+                          data-i18n-key="num-digits"
+                          class="num-digits"
+                          >+20 1553304400</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-xl-4 col-lg-6 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <div class="contact-info-items-2 style-2">
+                  <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="content">
+                    <h3 data-i18n-key="email">Email Address</h3>
+                    <ul>
+                      <li>
+                        <a href="mailto:info@g-software-t.com"
+                          >info@g-software-t.com</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-xl-4 col-lg-6 col-md-6"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <div class="contact-info-items-2">
+                  <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="content">
+                    <h3 data-i18n-key="location">Our Location</h3>
+                    <ul>
+                      <li>
+                        <span class="text-white" data-i18n-key="loc-desc">
+                          167 Northern 90 St, Jasmine (7) NEW-CAIRO Cairo, Egypt
+                        </span>
+
+                        <a
+                          href="https://maps.app.goo.gl/vDyvUZG8hyoxyUXz5"
+                          style="text-decoration: underline; margin-inline: 2px"
+                          data-i18n-key="view-maps"
+                          >VIEW ON MAP</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Portfolio Section End -->
 
       <!-- Contact Section Start -->
-      <section
-        class="contact-section fix section-padding pt-0 text-center"
-        style="margin-left: 400px"
-      >
+      <section class="contact-section fix section-padding pt-0 text-center" id="contact-section-services">
         <div class="container">
           <div class="row">
             <div class="col-xl-8 col-lg-8">
@@ -372,17 +532,19 @@
                 class="contact-form-items style-2 style-3"
                 style="color: #062640 !important"
               >
-                <div class="section-title text-center">
+                <div class="section-title serv-contact-title text-center">
                   <span
                     class="contact"
                     data-aos="fade-up"
                     data-aos-duration="500"
+                    data-i18n-key="contact-us"
                     >contact us<i class="fa-solid fa-arrow-right"></i
                   ></span>
                   <h2
                     class="contact"
                     data-aos="fade-up"
                     data-aos-duration="700"
+                    data-i18n-key="email-us"
                   >
                     Email Us!
                   </h2>
@@ -428,7 +590,6 @@
                         <div class="">
                           <select
                             class="nice-select"
-                            type="text"
                             name="service-Selected"
                             id="service-Selected"
                           >
@@ -449,7 +610,7 @@
                         <textarea
                           name="message"
                           id="message"
-                          placeholder="Your Message"
+                          placeholder="Write Your Message..."
                         ></textarea>
                       </div>
                     </div>
@@ -461,78 +622,86 @@
                     </div>
                   </div>
                 </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Contact Info Section Start -->
-      <section
-        class="contact-info-areas fix section-padding"
-        style="background-color: white"
-      >
-        <div class="container">
-          <div class="contact-info-wrapper-22">
-            <div class="row g-4">
-              <div
-                class="col-xl-4 col-lg-6 col-md-6"
-                data-aos="fade-up"
-                data-aos-duration="500"
-              >
-                <div class="contact-info-items-2">
-                  <div class="icon">
-                    <i class="fa-solid fa-phone"></i>
+                <!-- arabic -->
+                <form
+                  id="contact-form2"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  class="mt-4 mt-md-0"
+                >
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="bba6df53-a796-4740-bc4f-c00a6ab66c92"
+                  />
+                  <div class="row g-4 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="col-lg-6">
+                      <div class="form-clt">
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="الاسم بالكامل*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-clt">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email2"
+                          placeholder="البريد الإلكتروني*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-clt">
+                        <div class="container">
+                          <select
+                            class="nice-select"
+                            name="service-Selected"
+                            id="service-Selected"
+                          >
+                            <option disabled data-i18n-key="our-services">
+                              Our services
+                            </option>
+                            <option data-i18n-key="custom-sw">
+                              Custom Software Solutions
+                            </option>
+                            <option data-i18n-key="web-dev">
+                              Web Development
+                            </option>
+                            <option data-i18n-key="consulting-s">
+                              Technical and Executive Consulting
+                            </option>
+                            <option data-i18n-key="mobile-dev">
+                              Mobile App Development
+                            </option>
+                            <option data-i18n-key="plans-s">
+                              Feasibility Studies and Marketing Plans
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-clt">
+                        <textarea
+                          name="message"
+                          id="message"
+                          placeholder="اكتب رسالتك هنا..."
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-7 text-center" style="margin-left: 20%">
+                      <button type="submit" class="theme-btn text-center">
+                        أرسل الرسالة
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                      </button>
+                    </div>
                   </div>
-                  <div class="content">
-                    <h3>Phone Number</h3>
-                    <ul>
-                      <li>
-                        Mobile :
-                        <a href="tel:+201553304400">+20 1553304400</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-xl-4 col-lg-6 col-md-6"
-                data-aos="fade-up"
-                data-aos-duration="700"
-              >
-                <div class="contact-info-items-2 style-2">
-                  <div class="icon">
-                    <i class="fa-solid fa-envelope"></i>
-                  </div>
-                  <div class="content">
-                    <h3>Email Address</h3>
-                    <ul>
-                      <li>
-                        <a href="mailto:info@g-software-t.com"
-                          >info@g-software-t.com</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-xl-4 col-lg-6 col-md-6"
-                data-aos="fade-up"
-                data-aos-duration="500"
-              >
-                <div class="contact-info-items-2">
-                  <div class="icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                  </div>
-                  <div class="content">
-                    <h3>Our Location</h3>
-                    <ul>
-                      <li>
-                        167 Northern 90 St, Jasmine (7) NEW-CAIRO Cairo, Egypt
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
@@ -802,32 +971,7 @@
     <script src="assets/js/vanilla-tilt.min.js"></script>
     <!-- js Mian start -->
     <script src="assets/js/main.js"></script>
-    <!-- <script>
-      document.querySelectorAll(".nav-link").forEach((item) => {
-        item.addEventListener("mouseover", function () {
-          const targetPaneId = this.getAttribute("data-bs-target");
-          const targetPane = document.querySelector(targetPaneId);
-
-          // Remove 'active' class from all nav links
-          document.querySelectorAll(".nav-link").forEach((link) => {
-            link.classList.remove("active");
-          });
-
-          // Remove 'show' class from all tab panes
-          document.querySelectorAll(".tab-pane").forEach((pane) => {
-            pane.classList.remove("show", "active");
-          });
-
-          // Add 'active' class to the hovered nav link
-          this.classList.add("active");
-
-          // Add 'show' and 'active' classes to the corresponding tab pane
-          if (targetPane) {
-            targetPane.classList.add("show", "active");
-          }
-        });
-      });
-    </script> -->
+    <script src="assets/js/scripts.js"></script>
     <script>
       AOS.init();
     </script>
