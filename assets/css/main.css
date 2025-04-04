@@ -11659,7 +11659,15 @@ html[dir="rtl"] .contact-form-items.style-3 .form-clt .nice-select {
     margin-right: -820px !important; 
     margin-inline: 0;
   }
-
+  html[dir="rtl"] .about-us-content,.about-us-content {
+margin-top: -100px;
+  }
+    html[dir="rtl"] .pricing-title,.pricing-title {
+    margin-bottom: 0px !important;
+  }
+  .about-product-thumb p {
+    font-size: 20px !important;
+  }
 }
 @media (max-width: 575px) {
   .breadcrumb-wrapper {
@@ -11681,6 +11689,15 @@ html[dir="rtl"] .contact-form-items.style-3 .form-clt .nice-select {
   html[dir="rtl"] .serv-contact-title {
     margin-inline: 38.5% !important;
   }  
+  html[dir="rtl"] .about-us-content,.about-us-content {
+    margin-top: -100px;
+  }
+    html[dir="rtl"] .pricing-title,.pricing-title {
+    margin-bottom: 0px !important;
+  }
+   .about-product-thumb p {
+    font-size: 22.5px !important;
+  }
 }
 
 html[dir="rtl"] .cardd .titlee {
@@ -11740,7 +11757,7 @@ html[dir="rtl"] #buy-btn {
     margin-inline: 0  !important;
   }
   #sponsor-section .swiper-slide .card-body {
- 
     margin-inline: 0  !important;
   }
+  
 }
