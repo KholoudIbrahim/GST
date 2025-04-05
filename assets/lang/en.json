@@ -7,7 +7,7 @@
 
   "who-are-we": "WHO ARE WE",
   "who-are-title": "About G.S.T",
-  "who-are-subtitle": "We design technology to serve your business efficiently.",
+  "who-are-subtitle": "We Design Technology To Serve Your Business Efficiently.",
   "who-are-content": "G.S.T is an Egyptian company specializing in software and technology solutions. It was founded with a clear goal: to provide smart and practical solutions to every technical challenge. We accompany our clients through all project phases, from analysis and planning, through design and development, to launch and technical support.",
   "who-are-first": "Extensive experience in implementing complex technical projects",
   "who-are-second": "An integrated team of programmers, designers, consultants and marketing experts",
@@ -75,5 +75,11 @@
   "about-footer": "In GST, there are only a few. We create technical solutions instead, and they actually speak to the way organizations operate. We work with businesses and different entities to address technical challenges for opportunities to achieve success and sustainability.",
   "quick": "Quick Links",
   "news-letter": "Newsletter",
-  "news-letter-desc": "Subscribe to G.S.T weekly newsletter to get the latest updates."
+  "news-letter-desc": "Subscribe to G.S.T weekly newsletter to get the latest updates.",
+  
+  "line-1":"Do you have a project idea and are looking for the right technical partner to implement it?",
+  "line-2":"We are pleased to contact you for a free initial consultation and a response within 24 hours.",
+  "feat-1":"WhatsApp direct",
+  "feat-2":"Free initial consultation",
+  "feat-3":"Fast and professional support"
 }

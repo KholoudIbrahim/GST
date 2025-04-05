@@ -10153,7 +10153,7 @@ body {
   }
   html[dir="rtl"] .pricing-title p,
   .pricing-title p {
-    font-size: 16px !important;
+    font-size: 21px !important;
   }
 
   html[dir="rtl"] #slider-wrapper-homepage .content button,
@@ -10237,7 +10237,7 @@ body {
 
   html[dir="rtl"] .pricing-title p,
   .pricing-title p {
-    font-size: 16px !important;
+    font-size: 21px !important;
   }
 
   html[dir="rtl"] #slider-wrapper-homepage .content button,
@@ -10292,7 +10292,7 @@ body {
   }
   html[dir="rtl"] .pricing-title p,
   .pricing-title p {
-    font-size: 16px !important;
+    font-size: 21px !important;
   }
 
   html[dir="rtl"] #slider-wrapper-homepage .content button,
@@ -10319,7 +10319,8 @@ body {
   /* text-custom */
 
   /* transparency start */
-  html[dir="rtl"] #counter .info i ,#counter .info i {
+  html[dir="rtl"] #counter .info i,
+  #counter .info i {
     margin-left: 328px;
     margin-right: 75px;
     margin-bottom: 26px;
@@ -10332,7 +10333,8 @@ body {
     font-size: 22px;
   }
 
-  html[dir="rtl"] #counter .card-title,#counter .card-title {
+  html[dir="rtl"] #counter .card-title,
+  #counter .card-title {
     font-size: 39px !important;
     width: 600px;
     margin-left: 423px;
@@ -10343,7 +10345,8 @@ body {
     margin-right: 423px;
   }
 
-  html[dir="rtl"] #counter .card-text,#counter .card-text {
+  html[dir="rtl"] #counter .card-text,
+  #counter .card-text {
     margin-top: 20px !important;
     width: 399px;
     font-size: 22px;
@@ -10352,7 +10355,8 @@ body {
 
   /* transparency end */
   /* about start */
-  html[dir="rtl"] .about-section-title,.about-section-title {
+  html[dir="rtl"] .about-section-title,
+  .about-section-title {
     margin-inline: 13% !important;
     width: 72% !important;
   }
@@ -10369,7 +10373,8 @@ body {
   /* text-custom */
 
   /* transparency start */
-  html[dir="rtl"] #counter .info i,#counter .info i {
+  html[dir="rtl"] #counter .info i,
+  #counter .info i {
     margin-left: 328px;
     margin-right: 75px;
     margin-bottom: 26px;
@@ -10382,18 +10387,20 @@ body {
     font-size: 22px;
   }
 
-  html[dir="rtl"] #counter .card-title,#counter .card-title  {
+  html[dir="rtl"] #counter .card-title,
+  #counter .card-title {
     font-size: 39px !important;
     width: 600px;
     margin-left: 423px;
   }
-  html[dir="rtl"] #counter .card-title  {
+  html[dir="rtl"] #counter .card-title {
     font-size: 39px !important;
     width: 600px;
     margin-right: 423px;
   }
 
-  html[dir="rtl"] #counter .card-text,#counter .card-text {
+  html[dir="rtl"] #counter .card-text,
+  #counter .card-text {
     margin-top: 20px !important;
     width: 399px;
     font-size: 22px;
@@ -10401,7 +10408,8 @@ body {
   }
   /* transparency end */
   /* about start */
-   html[dir="rtl"] .about-section-title,.about-section-title  {
+  html[dir="rtl"] .about-section-title,
+  .about-section-title {
     margin-inline: 13% !important;
     width: 72% !important;
   }
@@ -10418,31 +10426,34 @@ body {
   /* text-custom */
 
   /* transparency start */
-    html[dir="rtl"] #counter .info i,#counter .info i {
+  html[dir="rtl"] #counter .info i,
+  #counter .info i {
     margin-left: 328px;
     margin-right: 75px;
     margin-bottom: 26px;
     font-size: 22px;
   }
-    html[dir="rtl"] #counter .info i{
+  html[dir="rtl"] #counter .info i {
     margin-right: 328px;
     margin-left: 75px;
     margin-bottom: 26px;
     font-size: 22px;
   }
 
-    html[dir="rtl"] #counter .card-title,#counter .card-title {
+  html[dir="rtl"] #counter .card-title,
+  #counter .card-title {
     font-size: 39px !important;
     width: 600px;
     margin-left: 423px;
   }
-    html[dir="rtl"] #counter .card-title {
+  html[dir="rtl"] #counter .card-title {
     font-size: 39px !important;
     width: 600px;
     margin-right: 423px;
   }
 
-    html[dir="rtl"] #counter .card-text,#counter .card-text {
+  html[dir="rtl"] #counter .card-text,
+  #counter .card-text {
     margin-top: 20px !important;
     width: 399px;
     font-size: 22px;
@@ -10450,7 +10461,8 @@ body {
   }
   /* transparency end */
   /* about start */
-    html[dir="rtl"] .about-section-title,.about-section-title {
+  html[dir="rtl"] .about-section-title,
+  .about-section-title {
     margin-inline: 13% !important;
     width: 72% !important;
   }
@@ -10897,8 +10909,8 @@ html[dir="rtl"] .contact-section {
 .about-us-content p {
   font-size: 23px;
   width: 630px;
-  margin-top: 125px !important;
-  line-height: 1.1;
+  /* margin-top: 125px !important; */
+  line-height: 1.3;
   font-weight: 600;
 }
 /* RTL Design and Media Queries End */
@@ -11496,19 +11508,6 @@ html[dir="rtl"] #select {
     transform: translateY(0);
   }
 }
-/*
-
-The MIT License
-
-Copyright (c) 2024 0xERR0R - https://codepen.io/0xERR0R
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-*/
 
 :root {
   --off-white: #fafaf0;
@@ -11611,27 +11610,6 @@ NOTE: The content below includes copyright notice information;
   animation: beat 0.25s infinite alternate;
 }
 
-/* a {
-    text-decoration: none;
-    color: var(--light-blue);
-    position: relative;
-} */
-
-/* a::after {
-    content: "";
-    width: 0;
-    height: 0.125rem;
-    left: 0;
-    bottom: 0;
-    transition: width .4s ease;
-    background: var(--light-blue);
-    position: absolute;
-} */
-
-/* a:hover::after {
-    width: 100%;
-} */
-
 /* contact form globally */
 .contact-section {
   margin-left: 400px;
@@ -11686,17 +11664,21 @@ html[dir="rtl"] .contact-form-items.style-3 .form-clt .nice-select {
   html[dir="rtl"] #contact-section-services {
     margin-right: -820px !important;
   }
-  html[dir="rtl"] #contact-section-services input,html[dir="rtl"] #contact-section-services textarea,html[dir="rtl"] #contact-section-services select option {
+  html[dir="rtl"] #contact-section-services input,
+  html[dir="rtl"] #contact-section-services textarea,
+  html[dir="rtl"] #contact-section-services select option {
     width: 330px !important;
   }
   html[dir="rtl"] #contact-section-services #service-Selected {
-    margin-right: -820px !important; 
+    margin-right: -820px !important;
     margin-inline: 0;
   }
-  html[dir="rtl"] .about-us-content,.about-us-content {
-margin-top: -100px;
+  html[dir="rtl"] .about-us-content,
+  .about-us-content {
+    margin-top: -100px;
   }
-    html[dir="rtl"] .pricing-title,.pricing-title {
+  html[dir="rtl"] .pricing-title,
+  .pricing-title {
     margin-bottom: 0px !important;
   }
   .about-product-thumb p {
@@ -11712,24 +11694,29 @@ margin-top: -100px;
   html[dir="rtl"] #contact-section-services {
     margin-right: -820px !important;
   }
-  html[dir="rtl"] #contact-section-services input,html[dir="rtl"] #contact-section-services textarea,html[dir="rtl"] #contact-section-services select option,  html[dir="rtl"] #contact-section-services #service-Selected {
-   width: 330px !important;
+  html[dir="rtl"] #contact-section-services input,
+  html[dir="rtl"] #contact-section-services textarea,
+  html[dir="rtl"] #contact-section-services select option,
+  html[dir="rtl"] #contact-section-services #service-Selected {
+    width: 330px !important;
   }
   html[dir="rtl"] #contact-section-services #service-Selected {
-    margin-right: -820px !important; 
+    margin-right: -820px !important;
     margin-inline: 395px;
     width: 334px !important;
   }
   html[dir="rtl"] .serv-contact-title {
     margin-inline: 38.5% !important;
-  }  
-  html[dir="rtl"] .about-us-content,.about-us-content {
+  }
+  html[dir="rtl"] .about-us-content,
+  .about-us-content {
     margin-top: -100px;
   }
-    html[dir="rtl"] .pricing-title,.pricing-title {
+  html[dir="rtl"] .pricing-title,
+  .pricing-title {
     margin-bottom: 0px !important;
   }
-   .about-product-thumb p {
+  .about-product-thumb p {
     font-size: 22.5px !important;
   }
 }
@@ -11744,8 +11731,6 @@ html[dir="rtl"] .cardd .descriptionn {
   line-height: 1.1;
 }
 
-
-
 html[dir="rtl"] .cardd .btns .cart-btn {
   font-size: 20px;
   line-height: 1.1;
@@ -11755,11 +11740,10 @@ html[dir="rtl"] .cardd .btns .cart-btn {
   padding-bottom: 2%;
   padding-left: 5%;
   padding-right: 5%;
-
 }
 
-html[dir="rtl"] #buy-btn { 
- font-size: 20px;
+html[dir="rtl"] #buy-btn {
+  font-size: 20px;
   line-height: 1.1;
   width: 85px !important;
   height: 100%;
@@ -11769,37 +11753,120 @@ html[dir="rtl"] #buy-btn {
   padding-right: 30%;
 }
 
-
-
 /* Media Query for services end */
 @media (max-width: 768px) {
-  #sponsor-section .swiper-slide {
-    width: 40vw; /* adjust the width to 80% of the viewport width */
-    max-height: 40vh; /* adjust the height to 40% of the viewport height */
-    margin-inline: 0  !important;
+  #sponsor-section .card {
+    width: 5rem;
   }
+
   #sponsor-section .swiper-slide {
-    width: 40vw; /* adjust the width to 80% of the viewport width */
-    max-height: 40vh; /* adjust the height to 40% of the viewport height */
-    margin-inline: 0  !important;
+    width: 85vw !important; /* adjust the width to 80% of the viewport width */
+    max-height: 25vh !important; /* adjust the height to 40% of the viewport height */
+    margin-right: -400px !important;
   }
+  #sponsor-section .swiper-slide img {
+    width: 85vw !important; /* adjust the width to 80% of the viewport width */
+    max-height: 25vh !important; /* adjust the height to 40% of the viewport height */
+    margin-inline: -500px !important;
+  }
+
+  #sponsor-section .swiper-wrapper {
+    width: 85vw !important; /* adjust the width to 80% of the viewport width */
+    max-height: 25vh !important; /* adjust the height to 40% of the viewport height */
+    margin-left: -500px !important;
+  }
+
   /* footer */
   footer {
     min-height: 170vh !important;
   }
+  /* about us */
+  .about-product-thumb img {
+    height: 225px !important;
+    width: 374px !important;
+  }
+
+  .about-us-content p {
+    margin-top: 139px !important;
+    width: fit-content;
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+  }
+
+  .price-title p {
+    font-size: 18px !important;
+  }
+  
+  .about-us-content p {
+    margin-top: 139px !important;
+    width: fit-content;
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+  }
+
+  .about-us-content .checked-txt {
+    margin-top: 10px !important;
+    font-size: 15px !important;
+    width: 550px;
+  }
+
+  .about-us-content i {
+    margin-top: 12px !important;
+    font-size: 19px !important;
+  }
 }
 
 @media (max-width: 480px) {
-  #sponsor-section .swiper-slide .card-body {
-   
-    margin-inline: 0  !important;
+  #sponsor-section .card {
+    width: 5rem;
   }
-  #sponsor-section .swiper-slide .card-body {
-    margin-inline: 0  !important;
+
+  #sponsor-section .swiper-slide {
+    width: 85vw !important; /* adjust the width to 80% of the viewport width */
+    max-height: 25vh !important; /* adjust the height to 40% of the viewport height */
+    margin-right: -400px !important;
   }
+  #sponsor-section .swiper-slide img {
+    width: 85vw !important; /* adjust the width to 80% of the viewport width */
+    max-height: 25vh !important; /* adjust the height to 40% of the viewport height */
+    margin-inline: -500px !important;
+  }
+
+  #sponsor-section .swiper-wrapper {
+    width: 85vw !important; /* adjust the width to 80% of the viewport width */
+    max-height: 25vh !important; /* adjust the height to 40% of the viewport height */
+    margin-left: -500px !important;
+  }
+
   /* footer */
-    footer {
+  footer {
     min-height: 170vh !important;
   }
 
+  /* about us */
+  .about-product-thumb img {
+    height: 225px !important;
+    width: 374px !important;
+  }
+  .price-title p {
+    font-size: 18px !important;
+  }
+
+  .about-us-content p {
+    margin-top: 139px !important;
+    width: fit-content;
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+  }
+
+  .about-us-content .checked-txt {
+    margin-top: 10px;
+    font-size: 15px !important;
+    width: 550px;
+  }
+
+  .about-us-content i {
+    margin-top: 12px !important;
+    font-size: 19px !important;
+  }
 }
