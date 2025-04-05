@@ -11806,13 +11806,16 @@ html[dir="rtl"] #buy-btn {
 
   .about-us-content .checked-txt {
     margin-top: 10px !important;
-    font-size: 15px !important;
+    font-size: 17px !important;
     width: 550px;
   }
 
   .about-us-content i {
     margin-top: 12px !important;
     font-size: 19px !important;
+  }
+    .team-staft-slidewrap .digital-marketing {
+      padding-top: 30px !important;
   }
 }
 
@@ -11861,7 +11864,7 @@ html[dir="rtl"] #buy-btn {
 
   .about-us-content .checked-txt {
     margin-top: 10px;
-    font-size: 15px !important;
+    font-size: 17px !important;
     width: 550px;
   }
 
@@ -11869,4 +11872,19 @@ html[dir="rtl"] #buy-btn {
     margin-top: 12px !important;
     font-size: 19px !important;
   }
+    .team-staft-slidewrap .digital-marketing {
+      padding-top: 30px !important;
+  }
 }
+
+
+  .about-us-content .checked-txt {
+    margin-top: 10px;
+    font-size: 20px !important;
+    width: 550px;
+  }
+
+  .about-us-content i {
+    margin-top: 12px !important;
+    font-size: 21px !important;
+  }
