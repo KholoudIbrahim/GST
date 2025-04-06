@@ -10319,7 +10319,7 @@ body {
   /* text-custom */
 
   /* transparency start */
-    #counter {
+  #counter {
     height: 830px !important;
   }
 
@@ -10382,7 +10382,7 @@ body {
   /* text-custom */
 
   /* transparency start */
-    #counter {
+  #counter {
     height: 830px !important;
   }
 
@@ -10647,9 +10647,9 @@ body {
 /* Media Query for screens smaller than 1200px (Large devices like desktops) */
 @media (max-width: 991px) {
   .portfolio .main-containerr {
-    flex-direction: column; /* Stack the columns vertically */
-    align-items: center; /* Center the columns horizontally */
-    margin-left: -100px;
+   flex-direction: column;
+   align-items: center;
+   margin-inline: -105px !important;
   }
 
   .portfolio .col-6 {
@@ -11144,6 +11144,17 @@ html[dir="rtl"] #select {
     width: 50%; /* Reduce card width */
     height: 50%; /* Reduce card width */
   }
+
+  .contact-form-items.style-3 .theme-btn {
+    display: block !important;
+    margin-inline: 264px !important;
+  }
+  html[dir="rtl"] .contact-form-items.style-3 .theme-btn {
+    display: block !important;
+    margin-inline: 821px !important;
+    width: 12%;
+    margin-top: 20px;
+  }
 }
 
 /* Media Query for screens smaller than 768px (Mobile Phones) */
@@ -11162,6 +11173,17 @@ html[dir="rtl"] #select {
     width: 50%;
     height: 50%; /* Make cards full-width on mobile */
   }
+
+  .contact-form-items.style-3 .theme-btn {
+    display: block !important;
+    margin-inline: 264px !important;
+  }
+      html[dir="rtl"] .contact-form-items.style-3 .theme-btn {
+        display: block !important;
+        margin-inline: 821px !important;
+        width: 12%;
+        margin-top: 20px;
+    }
 }
 
 /* Media Query for screens smaller than 576px (Smaller mobile phones) */
@@ -11184,6 +11206,18 @@ html[dir="rtl"] #select {
     height: 50%;
     /* Make cards full-width on mobile */
   }
+
+  .contact-form-items.style-3 .theme-btn {
+    display: block !important;
+    margin-inline: 264px !important;
+  }
+
+    html[dir="rtl"] .contact-form-items.style-3 .theme-btn {
+        display: block !important;
+        margin-inline: 821px !important;
+        width: 12%;
+        margin-top: 20px;
+    }
 }
 /* Digital Services Media Query End */
 
@@ -11825,7 +11859,7 @@ html[dir="rtl"] #buy-btn {
   .price-title p {
     font-size: 18px !important;
   }
-  
+
   .about-us-content p {
     margin-top: 139px !important;
     width: fit-content;
@@ -11843,8 +11877,8 @@ html[dir="rtl"] #buy-btn {
     margin-top: 12px !important;
     font-size: 19px !important;
   }
-    .team-staft-slidewrap .digital-marketing {
-      padding-top: 30px !important;
+  .team-staft-slidewrap .digital-marketing {
+    padding-top: 30px !important;
   }
 }
 
@@ -11901,19 +11935,18 @@ html[dir="rtl"] #buy-btn {
     margin-top: 12px !important;
     font-size: 19px !important;
   }
-    .team-staft-slidewrap .digital-marketing {
-      padding-top: 30px !important;
+  .team-staft-slidewrap .digital-marketing {
+    padding-top: 30px !important;
   }
 }
 
+.about-us-content .checked-txt {
+  margin-top: 10px;
+  font-size: 20px !important;
+  width: 550px;
+}
 
-  .about-us-content .checked-txt {
-    margin-top: 10px;
-    font-size: 20px !important;
-    width: 550px;
-  }
-
-  .about-us-content i {
-    margin-top: 12px !important;
-    font-size: 21px !important;
-  }
+.about-us-content i {
+  margin-top: 12px !important;
+  font-size: 21px !important;
+}
