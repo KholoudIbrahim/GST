@@ -244,29 +244,45 @@ var swiper = new Swiper(".swiper-container", {
 
 // toggle subside menu
 
-// Social Menu
+// Navigation
 
-// document.querySelectorAll(".nav-link").forEach((item) => {
-//   item.addEventListener("mouseover", function () {
-//     const targetPaneId = this.getAttribute("data-bs-target");
-//     const targetPane = document.querySelector(targetPaneId);
 
-//     // Remove 'active' class from all nav links
-//     document.querySelectorAll(".nav-link").forEach((link) => {
-//       link.classList.remove("active");
-//     });
+document.getElementById("consulting").addEventListener("click", function () {
+  // Perform your button's action here
+  console.log("Action performed!");
 
-//     // Remove 'show' class from all tab panes
-//     document.querySelectorAll(".tab-pane").forEach((pane) => {
-//       pane.classList.remove("show", "active");
-//     });
+  // Then navigate to the link
+  window.location.href = "consulting.html";
+});
 
-//     // Add 'active' class to the hovered nav link
-//     this.classList.add("active");
+document.getElementById("web").addEventListener("click", function () {
+  // Perform your button's action here
+  console.log("Action performed!");
 
-//     // Add 'show' and 'active' classes to the corresponding tab pane
-//     if (targetPane) {
-//       targetPane.classList.add("show", "active");
-//     }
-//   });
-// });
+  // Then navigate to the link
+  window.location.href = "web-design.html";
+});
+
+document.getElementById("mobile").addEventListener("click", function () {
+  // Perform your button's action here
+  console.log("Action performed!");
+
+  // Then navigate to the link
+  window.location.href = "mobile-app.html";
+});
+
+document.getElementById("plans").addEventListener("click", function () {
+  // Perform your button's action here
+  console.log("Action performed!");
+
+  // Then navigate to the link
+  window.location.href = "plans.html";
+});
+
+document.getElementById("custom-solutions").addEventListener("click", function () {
+    // Perform your button's action here
+    console.log("Action performed!");
+
+    // Then navigate to the link
+    window.location.href = "custom-solutions.html";
+  });
