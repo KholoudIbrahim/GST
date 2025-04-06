@@ -10319,6 +10319,10 @@ body {
   /* text-custom */
 
   /* transparency start */
+    #counter {
+    height: 830px !important;
+  }
+
   html[dir="rtl"] #counter .info i,
   #counter .info i {
     margin-left: 328px;
@@ -10347,12 +10351,17 @@ body {
 
   html[dir="rtl"] #counter .card-text,
   #counter .card-text {
-    margin-top: 20px !important;
-    width: 399px;
+    padding-top: 5px !important;
+    margin-left: 165px !important;
+    width: 350px;
     font-size: 22px;
-    line-height: 1.3;
+    line-height: 2.1;
   }
 
+  #counter .card .icon {
+    margin-top: 231px !important;
+    margin-left: 181px !important;
+  }
   /* transparency end */
   /* about start */
   html[dir="rtl"] .about-section-title,
@@ -10373,6 +10382,10 @@ body {
   /* text-custom */
 
   /* transparency start */
+    #counter {
+    height: 830px !important;
+  }
+
   html[dir="rtl"] #counter .info i,
   #counter .info i {
     margin-left: 328px;
@@ -10401,10 +10414,16 @@ body {
 
   html[dir="rtl"] #counter .card-text,
   #counter .card-text {
-    margin-top: 20px !important;
-    width: 399px;
+    padding-top: 5px !important;
+    margin-left: 165px !important;
+    width: 350px;
     font-size: 22px;
-    line-height: 1.3;
+    line-height: 2.1;
+  }
+
+  #counter .card .icon {
+    margin-top: 231px !important;
+    margin-left: 181px !important;
   }
   /* transparency end */
   /* about start */
@@ -10426,6 +10445,11 @@ body {
   /* text-custom */
 
   /* transparency start */
+
+  #counter {
+    height: 830px !important;
+  }
+
   html[dir="rtl"] #counter .info i,
   #counter .info i {
     margin-left: 328px;
@@ -10451,13 +10475,18 @@ body {
     width: 600px;
     margin-right: 423px;
   }
-
   html[dir="rtl"] #counter .card-text,
   #counter .card-text {
-    margin-top: 20px !important;
-    width: 399px;
+    padding-top: 5px !important;
+    margin-left: 165px !important;
+    width: 350px;
     font-size: 22px;
-    line-height: 1.3;
+    line-height: 2.1;
+  }
+
+  #counter .card .icon {
+    margin-top: 231px !important;
+    margin-left: 181px !important;
   }
   /* transparency end */
   /* about start */
