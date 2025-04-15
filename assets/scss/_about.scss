@@ -248,42 +248,7 @@
 //About version03 Section
 
 //Protfolio Section
-.protfolio-solution {
-  .protfolio-solutionwrap {
-    position: relative;
-    .swiper-pagination {
-      position: absolute;
-      right: 0;
-      bottom: 76px;
-      text-align: end;
-      left: initial;
-      font-size: 50px;
-      font-weight: 700;
-      span {
-        font-size: 50px;
-        font-weight: 700;
-      }
-    }
-    @include maxQuery(1399) {
-      .swiper-pagination {
-        bottom: 50px;
-        font-size: 36px;
-        span {
-          font-size: 36px;
-        }
-      }
-    }
-    @include maxQuery(991) {
-      .swiper-pagination {
-        bottom: 40px;
-        font-size: 28px;
-        span {
-          font-size: 28px;
-        }
-      }
-    }
-  }
-}
+
 .protfolio-solution-item {
   .thumb {
     width: 100%;
